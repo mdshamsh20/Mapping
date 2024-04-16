@@ -1,0 +1,1168 @@
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-11 411:33:33"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] GET    /fetch-data               --> my-project/Controllers.FetchFromDB (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqCreateDevice.go:52",
+  "func": "my-project/Controllers.ReqCreateDeviceApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqCreateDevice xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"1.0\" ts=\"\" orgId=\"\" msgId=\"\" />\n    <ReqDetails type=\"Type2\">\n        <User>\n            <DeviceInfo>\n                <Tag name=\"DEVICEID\" value=\"\"/>\n                <Tag name=\"GEOCODE\" value=\"\"/>\n                <Tag name=\"LOCATION\" value=\"\" />\n                <Tag name=\"IP\" value=\"\" />\n                <Tag name=\"TYPE\" value=\"\" />\n                <Tag name=\"ID\" value=\"\" />\n                <Tag name=\"OS\" value=\"\" />\n                <Tag name=\"APP\" value=\"\" />\n                <Tag name=\"CAPABILITY\" value=\"\" />\n                <Tag name=\"ISP\" value=\"Airtel/Vodafone/..\" />\n                <Tag name=\"OSVERSION\" value=\"12.0\" />\n                <Tag name=\"MANUFACTUFER\" value=\"Redmi\" />\n                <Tag name=\"MODEL\" value=\"Note 8 pro\" />\n                <Tag name=\"PACKAGENAME\" value=\"com.tsp.token\" />\n                <Tag name=\"MVERSION\" value=\"11.0\" />\n            </DeviceInfo>\n            <Strategies>\n                <Strategy>\n                    <Detail name=\"isRooted\" value=\"Not Rooted\"/>\n                </Strategy>\n            </Strategies>\n        </User>\n    </ReqDetails>\n</token:ReqCreateDevice>",
+  "time": "10007-10-11 411:37:37"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqCreateDevice.go:61",
+  "func": "my-project/Controllers.ReqCreateDeviceApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-11 411:37:37"
+}
+[GIN] 2024/04/10 - 11:41:37 | 200 |     993.046µs |             ::1 | POST     "/Req/RespDevice"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-11 411:42:42"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] GET    /fetch-data               --> my-project/Controllers.FetchFromDB (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespVerifyToken.go:39",
+  "func": "my-project/Controllers.RespVerifyTokenApi",
+  "level": "info",
+  "msg": "@RespVerifyTokenApi Request body:<token:ReqVerifyToken xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"1.0\" ts=\"\" orgId=\"\" msgId=\"\" />\n    <ReqDetails type=\"Type2\">\n        <User>\n            <DeviceInfo>\n                <Tag name=\"DEVICEID\" value=\"\"/>\n                <Tag name=\"GEOCODE\" value=\"\"/>\n                <Tag name=\"LOCATION\" value=\"\" />\n                <Tag name=\"IP\" value=\"\" />\n                <Tag name=\"TYPE\" value=\"\" />\n                <Tag name=\"ID\" value=\"\" />\n                <Tag name=\"OS\" value=\"\" />\n                <Tag name=\"APP\" value=\"\" />\n                <Tag name=\"CAPABILITY\" value=\"\" />\n                <Tag name=\"ISP\" value=\"Airtel/Vodafone/..\" />\n                <Tag name=\"OSVERSION\" value=\"12.0\" />\n                <Tag name=\"MANUFACTUFER\" value=\"Redmi\" />\n                <Tag name=\"MODEL\" value=\"Note 8 pro\" />\n                <Tag name=\"PACKAGENAME\" value=\"com.tsp.token\" />\n                <Tag name=\"MVERSION\" value=\"11.0\" />\n            </DeviceInfo>\n            <Details>\n                <Detail name=\"tokenId\" value=\"asdghf\"/>\n            </Details>\n        </User>\n    </ReqDetails>\n</token:ReqVerifyToken>",
+  "time": "10007-10-11 411:50:50"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespVerifyToken.go:48",
+  "func": "my-project/Controllers.RespVerifyTokenApi",
+  "level": "info",
+  "msg": "@RespVerifyTokenApi Successfully created request.",
+  "time": "10007-10-11 411:50:50"
+}
+[GIN] 2024/04/10 - 11:49:50 | 200 |     553.426µs |             ::1 | POST     "/Req/RespVerifyToken"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-11 411:43:43"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-12 412:16:16"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:40",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-12 412:21:21"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:44",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "error",
+  "msg": "Error decoding request body:expected element type <token:ReqListKeys> but have <ReqListKeys>",
+  "time": "10007-10-12 412:21:21"
+}
+[GIN] 2024/04/10 - 12:00:21 | 500 |     324.851µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-12 412:30:30"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:40",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-12 412:34:34"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:44",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "error",
+  "msg": "Error decoding request body:expected element type <token:ReqListKeys> but have <ReqListKeys>",
+  "time": "10007-10-12 412:34:34"
+}
+[GIN] 2024/04/10 - 12:04:34 | 500 |     288.398µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-12 412:18:18"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:40",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-12 412:23:23"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:50",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-12 412:23:23"
+}
+[GIN] 2024/04/10 - 12:10:23 | 200 |     371.985µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-12 412:16:16"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:40",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-12 412:20:20"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:50",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-12 412:20:20"
+}
+[GIN] 2024/04/10 - 12:35:20 | 200 |     492.138µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-04 44:43:43"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:32",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-04 44:45:45"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:42",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-04 44:45:45"
+}
+[GIN] 2024/04/10 - 16:24:45 | 200 |     343.638µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-04 44:54:54"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:34",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-04 44:57:57"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:51",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-04 44:57:57"
+}
+[GIN] 2024/04/10 - 16:25:57 | 200 |     567.042µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-04 44:14:14"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqCreateDevice.go:52",
+  "func": "my-project/Controllers.ReqCreateDeviceApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqCreateDevice xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"1.0\" ts=\"\" orgId=\"\" msgId=\"\" />\n    <ReqDetails type=\"Type2\">\n        <User>\n            <DeviceInfo>\n                <Tag name=\"DEVICEID\" value=\"\"/>\n                <Tag name=\"GEOCODE\" value=\"\"/>\n                <Tag name=\"LOCATION\" value=\"\" />\n                <Tag name=\"IP\" value=\"\" />\n                <Tag name=\"TYPE\" value=\"\" />\n                <Tag name=\"ID\" value=\"\" />\n                <Tag name=\"OS\" value=\"\" />\n                <Tag name=\"APP\" value=\"\" />\n                <Tag name=\"CAPABILITY\" value=\"\" />\n                <Tag name=\"ISP\" value=\"Airtel/Vodafone/..\" />\n                <Tag name=\"OSVERSION\" value=\"12.0\" />\n                <Tag name=\"MANUFACTUFER\" value=\"Redmi\" />\n                <Tag name=\"MODEL\" value=\"Note 8 pro\" />\n                <Tag name=\"PACKAGENAME\" value=\"com.tsp.token\" />\n                <Tag name=\"MVERSION\" value=\"11.0\" />\n            </DeviceInfo>\n            <Strategies>\n                <Strategy>\n                    <Detail name=\"isRooted\" value=\"Not Rooted\"/>\n                </Strategy>\n            </Strategies>\n        </User>\n    </ReqDetails>\n</token:ReqCreateDevice>",
+  "time": "10007-10-04 44:35:35"
+}
+[GIN] 2024/04/10 - 16:28:35 | 200 |     532.583µs |             ::1 | POST     "/Req/RespDevice"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-04 44:07:07"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqCreateDevice.go:52",
+  "func": "my-project/Controllers.ReqCreateDeviceApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqCreateDevice xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"1.0\" ts=\"\" orgId=\"\" msgId=\"\" />\n    <ReqDetails type=\"Type2\">\n        <User>\n            <DeviceInfo>\n                <Tag name=\"DEVICEID\" value=\"\"/>\n                <Tag name=\"GEOCODE\" value=\"\"/>\n                <Tag name=\"LOCATION\" value=\"\" />\n                <Tag name=\"IP\" value=\"\" />\n                <Tag name=\"TYPE\" value=\"\" />\n                <Tag name=\"ID\" value=\"\" />\n                <Tag name=\"OS\" value=\"\" />\n                <Tag name=\"APP\" value=\"\" />\n                <Tag name=\"CAPABILITY\" value=\"\" />\n                <Tag name=\"ISP\" value=\"Airtel/Vodafone/..\" />\n                <Tag name=\"OSVERSION\" value=\"12.0\" />\n                <Tag name=\"MANUFACTUFER\" value=\"Redmi\" />\n                <Tag name=\"MODEL\" value=\"Note 8 pro\" />\n                <Tag name=\"PACKAGENAME\" value=\"com.tsp.token\" />\n                <Tag name=\"MVERSION\" value=\"11.0\" />\n            </DeviceInfo>\n            <Strategies>\n                <Strategy>\n                    <Detail name=\"isRooted\" value=\"Not Rooted\"/>\n                </Strategy>\n            </Strategies>\n        </User>\n    </ReqDetails>\n</token:ReqCreateDevice>",
+  "time": "10007-10-04 44:12:12"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqCreateDevice.go:56",
+  "func": "my-project/Controllers.ReqCreateDeviceApi",
+  "level": "error",
+  "msg": "Error decoding request body:expected element type <http://npci.org/token/schema/> but have <ReqCreateDevice>",
+  "time": "10007-10-04 44:12:12"
+}
+[GIN] 2024/04/10 - 16:31:12 | 500 |     302.936µs |             ::1 | POST     "/Req/RespDevice"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-04 44:04:04"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqCreateDevice.go:54",
+  "func": "my-project/Controllers.ReqCreateDeviceApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqCreateDevice xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"1.0\" ts=\"\" orgId=\"\" msgId=\"\" />\n    <ReqDetails type=\"Type2\">\n        <User>\n            <DeviceInfo>\n                <Tag name=\"DEVICEID\" value=\"\"/>\n                <Tag name=\"GEOCODE\" value=\"\"/>\n                <Tag name=\"LOCATION\" value=\"\" />\n                <Tag name=\"IP\" value=\"\" />\n                <Tag name=\"TYPE\" value=\"\" />\n                <Tag name=\"ID\" value=\"\" />\n                <Tag name=\"OS\" value=\"\" />\n                <Tag name=\"APP\" value=\"\" />\n                <Tag name=\"CAPABILITY\" value=\"\" />\n                <Tag name=\"ISP\" value=\"Airtel/Vodafone/..\" />\n                <Tag name=\"OSVERSION\" value=\"12.0\" />\n                <Tag name=\"MANUFACTUFER\" value=\"Redmi\" />\n                <Tag name=\"MODEL\" value=\"Note 8 pro\" />\n                <Tag name=\"PACKAGENAME\" value=\"com.tsp.token\" />\n                <Tag name=\"MVERSION\" value=\"11.0\" />\n            </DeviceInfo>\n            <Strategies>\n                <Strategy>\n                    <Detail name=\"isRooted\" value=\"Not Rooted\"/>\n                </Strategy>\n            </Strategies>\n        </User>\n    </ReqDetails>\n</token:ReqCreateDevice>",
+  "time": "10007-10-04 44:07:07"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqCreateDevice.go:58",
+  "func": "my-project/Controllers.ReqCreateDeviceApi",
+  "level": "error",
+  "msg": "Error decoding request body:expected element type <token:ReqCreateDevice> but have <ReqCreateDevice>",
+  "time": "10007-10-04 44:07:07"
+}
+[GIN] 2024/04/10 - 16:36:07 | 500 |      313.12µs |             ::1 | POST     "/Req/RespDevice"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-04 44:42:42"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /GetKeys                  --> my-project/Controllers.HandleXML (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:65",
+  "func": "my-project/Controllers.HandleXML",
+  "level": "info",
+  "msg": "Request body:<token:ReqCreateDevice xmlns:token=\"http://npci.org/token/schema/\">\n",
+  "time": "10007-10-04 44:25:25"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:69",
+  "func": "my-project/Controllers.HandleXML",
+  "level": "error",
+  "msg": "Error decoding request body:expected element type <token:ReqCreateDevice> but have <ReqCreateDevice>",
+  "time": "10007-10-04 44:25:25"
+}
+[GIN] 2024/04/10 - 16:48:25 | 500 |     270.878µs |             ::1 | POST     "/GetKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-04 44:09:09"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /GetKeys                  --> my-project/Controllers.HandleXML (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:65",
+  "func": "my-project/Controllers.HandleXML",
+  "level": "info",
+  "msg": "Request body:<token:ReqCreateDevice xmlns:token=\"http://npci.org/token/schema/\">\n",
+  "time": "10007-10-04 44:09:09"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:69",
+  "func": "my-project/Controllers.HandleXML",
+  "level": "error",
+  "msg": "Error decoding request body:expected element <ReqCreateDevice> in name space token:ReqCreateDevice but have http://npci.org/token/schema/",
+  "time": "10007-10-04 44:09:09"
+}
+[GIN] 2024/04/10 - 16:49:09 | 500 |     259.633µs |             ::1 | POST     "/GetKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-04 44:52:52"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /GetKeys                  --> my-project/Controllers.HandleXML (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:64",
+  "func": "my-project/Controllers.HandleXML",
+  "level": "info",
+  "msg": "Request body:<token:ReqCreateDevice xmlns:token=\"http://npci.org/token/schema/\">\n",
+  "time": "10007-10-04 44:55:55"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:68",
+  "func": "my-project/Controllers.HandleXML",
+  "level": "error",
+  "msg": "Error decoding request body:XML syntax error on line 2: unexpected EOF",
+  "time": "10007-10-04 44:55:55"
+}
+[GIN] 2024/04/10 - 16:51:55 | 500 |      296.76µs |             ::1 | POST     "/GetKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:64",
+  "func": "my-project/Controllers.HandleXML",
+  "level": "info",
+  "msg": "Request body:<token:ReqCreateDevice xmlns:token=\"http://npci.org/token/schema/\">\n</token:ReqCreateDevice>",
+  "time": "10007-10-04 44:17:17"
+}
+[GIN] 2024/04/10 - 16:52:17 | 200 |     353.707µs |             ::1 | POST     "/GetKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-04 44:13:13"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /GetKeys                  --> my-project/Controllers.HandleXML (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:64",
+  "func": "my-project/Controllers.HandleXML",
+  "level": "info",
+  "msg": "Request body:<token:ReqCreateDevice xmlns:token=\"http://npci.org/token/schema/\">\n</token:ReqCreateDevice>",
+  "time": "10007-10-04 44:23:23"
+}
+[GIN] 2024/04/10 - 16:53:23 | 200 |     401.895µs |             ::1 | POST     "/GetKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:64",
+  "func": "my-project/Controllers.HandleXML",
+  "level": "info",
+  "msg": "Request body:<token:ReqCreateDevice xmlns:token=\"http://npci.org/token/schema/\">\n</token:ReqCreateDevice>",
+  "time": "10007-10-04 44:17:17"
+}
+[GIN] 2024/04/10 - 16:54:17 | 200 |     146.715µs |             ::1 | POST     "/GetKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-05 45:43:43"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /GetKeys                  --> my-project/Controllers.HandleXML (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:64",
+  "func": "my-project/Controllers.HandleXML",
+  "level": "info",
+  "msg": "Request body:<token:ReqCreateDevice xmlns:token=\"http://npci.org/token/schema/\">\n</token:ReqCreateDevice>",
+  "time": "10007-10-05 45:46:46"
+}
+[GIN] 2024/04/10 - 17:02:46 | 200 |     397.618µs |             ::1 | POST     "/GetKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-05 45:32:32"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /GetKeys                  --> my-project/Controllers.HandleXML (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:64",
+  "func": "my-project/Controllers.HandleXML",
+  "level": "info",
+  "msg": "Request body:<token:ReqCreateDevice xmlns:token=\"http://npci.org/token/schema/\">\n</token:ReqCreateDevice>",
+  "time": "10007-10-05 45:33:33"
+}
+[GIN] 2024/04/10 - 17:03:33 | 200 |     428.988µs |             ::1 | POST     "/GetKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-05 45:55:55"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqCreateDevice.go:54",
+  "func": "my-project/Controllers.ReqCreateDeviceApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqCreateDevice xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"1.0\" ts=\"\" orgId=\"\" msgId=\"\" />\n    <ReqDetails type=\"Type2\">\n        <User>\n            <DeviceInfo>\n                <Tag name=\"DEVICEID\" value=\"\"/>\n                <Tag name=\"GEOCODE\" value=\"\"/>\n                <Tag name=\"LOCATION\" value=\"\" />\n                <Tag name=\"IP\" value=\"\" />\n                <Tag name=\"TYPE\" value=\"\" />\n                <Tag name=\"ID\" value=\"\" />\n                <Tag name=\"OS\" value=\"\" />\n                <Tag name=\"APP\" value=\"\" />\n                <Tag name=\"CAPABILITY\" value=\"\" />\n                <Tag name=\"ISP\" value=\"Airtel/Vodafone/..\" />\n                <Tag name=\"OSVERSION\" value=\"12.0\" />\n                <Tag name=\"MANUFACTUFER\" value=\"Redmi\" />\n                <Tag name=\"MODEL\" value=\"Note 8 pro\" />\n                <Tag name=\"PACKAGENAME\" value=\"com.tsp.token\" />\n                <Tag name=\"MVERSION\" value=\"11.0\" />\n            </DeviceInfo>\n            <Strategies>\n                <Strategy>\n                    <Detail name=\"isRooted\" value=\"Not Rooted\"/>\n                </Strategy>\n            </Strategies>\n        </User>\n    </ReqDetails>\n</token:ReqCreateDevice>",
+  "time": "10007-10-05 45:01:01"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqCreateDevice.go:58",
+  "func": "my-project/Controllers.ReqCreateDeviceApi",
+  "level": "error",
+  "msg": "Error decoding request body:expected element type <token:ReqCreateDevice> but have <ReqCreateDevice>",
+  "time": "10007-10-05 45:01:01"
+}
+[GIN] 2024/04/10 - 17:05:01 | 500 |     348.415µs |             ::1 | POST     "/Req/RespDevice"
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespVerifyToken.go:39",
+  "func": "my-project/Controllers.RespVerifyTokenApi",
+  "level": "info",
+  "msg": "@RespVerifyTokenApi Request body:<token:ReqVerifyToken xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"1.0\" ts=\"\" orgId=\"\" msgId=\"\" />\n    <ReqDetails type=\"Type2\">\n        <User>\n            <DeviceInfo>\n                <Tag name=\"DEVICEID\" value=\"\"/>\n                <Tag name=\"GEOCODE\" value=\"\"/>\n                <Tag name=\"LOCATION\" value=\"\" />\n                <Tag name=\"IP\" value=\"\" />\n                <Tag name=\"TYPE\" value=\"\" />\n                <Tag name=\"ID\" value=\"\" />\n                <Tag name=\"OS\" value=\"\" />\n                <Tag name=\"APP\" value=\"\" />\n                <Tag name=\"CAPABILITY\" value=\"\" />\n                <Tag name=\"ISP\" value=\"Airtel/Vodafone/..\" />\n                <Tag name=\"OSVERSION\" value=\"12.0\" />\n                <Tag name=\"MANUFACTUFER\" value=\"Redmi\" />\n                <Tag name=\"MODEL\" value=\"Note 8 pro\" />\n                <Tag name=\"PACKAGENAME\" value=\"com.tsp.token\" />\n                <Tag name=\"MVERSION\" value=\"11.0\" />\n            </DeviceInfo>\n            <Details>\n                <Detail name=\"tokenId\" value=\"asdghf\"/>\n            </Details>\n        </User>\n    </ReqDetails>\n</token:ReqVerifyToken>",
+  "time": "10007-10-05 45:23:23"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespVerifyToken.go:48",
+  "func": "my-project/Controllers.RespVerifyTokenApi",
+  "level": "info",
+  "msg": "@RespVerifyTokenApi Successfully created request.",
+  "time": "10007-10-05 45:23:23"
+}
+[GIN] 2024/04/10 - 17:05:23 | 200 |      550.53µs |             ::1 | POST     "/Req/RespVerifyToken"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-05 45:55:55"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqCreateDevice.go:52",
+  "func": "my-project/Controllers.ReqCreateDeviceApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqCreateDevice xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"1.0\" ts=\"\" orgId=\"\" msgId=\"\" />\n    <ReqDetails type=\"Type2\">\n        <User>\n            <DeviceInfo>\n                <Tag name=\"DEVICEID\" value=\"\"/>\n                <Tag name=\"GEOCODE\" value=\"\"/>\n                <Tag name=\"LOCATION\" value=\"\" />\n                <Tag name=\"IP\" value=\"\" />\n                <Tag name=\"TYPE\" value=\"\" />\n                <Tag name=\"ID\" value=\"\" />\n                <Tag name=\"OS\" value=\"\" />\n                <Tag name=\"APP\" value=\"\" />\n                <Tag name=\"CAPABILITY\" value=\"\" />\n                <Tag name=\"ISP\" value=\"Airtel/Vodafone/..\" />\n                <Tag name=\"OSVERSION\" value=\"12.0\" />\n                <Tag name=\"MANUFACTUFER\" value=\"Redmi\" />\n                <Tag name=\"MODEL\" value=\"Note 8 pro\" />\n                <Tag name=\"PACKAGENAME\" value=\"com.tsp.token\" />\n                <Tag name=\"MVERSION\" value=\"11.0\" />\n            </DeviceInfo>\n            <Strategies>\n                <Strategy>\n                    <Detail name=\"isRooted\" value=\"Not Rooted\"/>\n                </Strategy>\n            </Strategies>\n        </User>\n    </ReqDetails>\n</token:ReqCreateDevice>",
+  "time": "10007-10-05 45:04:04"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqCreateDevice.go:61",
+  "func": "my-project/Controllers.ReqCreateDeviceApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:04:04"
+}
+[GIN] 2024/04/10 - 17:08:04 | 200 |     635.132µs |             ::1 | POST     "/Req/RespDevice"
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:34",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-05 45:53:53"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:51",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:53:53"
+}
+[GIN] 2024/04/10 - 17:11:53 | 200 |     288.129µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-05 45:35:35"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:35",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-05 45:37:37"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:45",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:37:37"
+}
+[GIN] 2024/04/10 - 17:17:37 | 200 |      367.68µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-05 45:51:51"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:35",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-05 45:52:52"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:45",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:52:52"
+}
+[GIN] 2024/04/10 - 17:17:52 | 200 |     511.601µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:35",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-05 45:36:36"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:45",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:36:36"
+}
+[GIN] 2024/04/10 - 17:18:36 | 200 |     274.938µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:35",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-05 45:45:45"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:45",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:45:45"
+}
+[GIN] 2024/04/10 - 17:18:45 | 200 |     240.639µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-05 45:02:02"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:35",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-05 45:06:06"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:45",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:06:06"
+}
+[GIN] 2024/04/10 - 17:20:06 | 200 |     498.787µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-05 45:38:38"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:35",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-05 45:41:41"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:45",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:41:41"
+}
+[GIN] 2024/04/10 - 17:24:41 | 200 |     533.414µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-05 45:41:41"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:35",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-05 45:42:42"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:45",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:42:42"
+}
+[GIN] 2024/04/10 - 17:25:42 | 200 |     540.845µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:35",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-05 45:56:56"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:45",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:56:56"
+}
+[GIN] 2024/04/10 - 17:25:56 | 200 |     290.122µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-05 45:46:46"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:35",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-05 45:47:47"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:45",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:47:47"
+}
+[GIN] 2024/04/10 - 17:26:47 | 200 |     628.225µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-05 45:28:28"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:35",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-05 45:29:29"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:45",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:29:29"
+}
+[GIN] 2024/04/10 - 17:32:29 | 200 |      616.38µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-05 45:29:29"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:35",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-05 45:31:31"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:45",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:31:31"
+}
+[GIN] 2024/04/10 - 17:33:31 | 200 |     539.592µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-05 45:36:36"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:35",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-05 45:38:38"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:45",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:38:38"
+}
+[GIN] 2024/04/10 - 17:35:38 | 200 |     531.715µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-05 45:43:43"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:35",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-05 45:45:45"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:45",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:45:45"
+}
+[GIN] 2024/04/10 - 17:37:45 | 200 |     737.977µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-10.log",
+  "time": "10007-10-05 45:49:49"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:35",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-05 45:52:52"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:45",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:52:52"
+}
+[GIN] 2024/04/10 - 17:43:52 | 200 |     591.974µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqCreateDevice.go:52",
+  "func": "my-project/Controllers.ReqCreateDeviceApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqCreateDevice xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"1.0\" ts=\"\" orgId=\"\" msgId=\"\" />\n    <ReqDetails type=\"Type2\">\n        <User>\n            <DeviceInfo>\n                <Tag name=\"DEVICEID\" value=\"\"/>\n                <Tag name=\"GEOCODE\" value=\"\"/>\n                <Tag name=\"LOCATION\" value=\"\" />\n                <Tag name=\"IP\" value=\"\" />\n                <Tag name=\"TYPE\" value=\"\" />\n                <Tag name=\"ID\" value=\"\" />\n                <Tag name=\"OS\" value=\"\" />\n                <Tag name=\"APP\" value=\"\" />\n                <Tag name=\"CAPABILITY\" value=\"\" />\n                <Tag name=\"ISP\" value=\"Airtel/Vodafone/..\" />\n                <Tag name=\"OSVERSION\" value=\"12.0\" />\n                <Tag name=\"MANUFACTUFER\" value=\"Redmi\" />\n                <Tag name=\"MODEL\" value=\"Note 8 pro\" />\n                <Tag name=\"PACKAGENAME\" value=\"com.tsp.token\" />\n                <Tag name=\"MVERSION\" value=\"11.0\" />\n            </DeviceInfo>\n            <Strategies>\n                <Strategy>\n                    <Detail name=\"isRooted\" value=\"Not Rooted\"/>\n                </Strategy>\n            </Strategies>\n        </User>\n    </ReqDetails>\n</token:ReqCreateDevice>",
+  "time": "10007-10-05 45:50:50"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqCreateDevice.go:61",
+  "func": "my-project/Controllers.ReqCreateDeviceApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:50:50"
+}
+[GIN] 2024/04/10 - 17:45:50 | 200 |     734.908µs |             ::1 | POST     "/Req/RespDevice"
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:35",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-05 45:02:02"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:45",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:02:02"
+}
+[GIN] 2024/04/10 - 17:47:02 | 200 |     229.608µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:35",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head msgId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" orgId=\"159022\"\nprodType=\"PSO\" ts=\"2022-08-17T11:15:33+05:30\" ver=\"2.0\" />\n    <Txn id=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" mobile=\"8920678669\"\nnote=\"NA\" pspOrgId=\"159022\" refId=\"001cpHRvI5XH8hc2ezt7PI2xebpuHpN8eO0\" refUrl=\"http://upi\" ts=\"2022-08-17T11:15:33+05:30\" tspId=\"159022\" type=\"ListKeys\" />\n</token:ReqListKeys>",
+  "time": "10007-10-05 45:26:26"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ListKeys.go:45",
+  "func": "my-project/Controllers.ListKeysApi",
+  "level": "info",
+  "msg": "Successfully created request.",
+  "time": "10007-10-05 45:26:26"
+}
+[GIN] 2024/04/10 - 17:47:26 | 200 |     334.431µs |             ::1 | POST     "/ListKeys"
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespVerifyToken.go:39",
+  "func": "my-project/Controllers.RespVerifyTokenApi",
+  "level": "info",
+  "msg": "@RespVerifyTokenApi Request body:<token:ReqVerifyToken xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"1.0\" ts=\"\" orgId=\"\" msgId=\"\" />\n    <ReqDetails type=\"Type2\">\n        <User>\n            <DeviceInfo>\n                <Tag name=\"DEVICEID\" value=\"\"/>\n                <Tag name=\"GEOCODE\" value=\"\"/>\n                <Tag name=\"LOCATION\" value=\"\" />\n                <Tag name=\"IP\" value=\"\" />\n                <Tag name=\"TYPE\" value=\"\" />\n                <Tag name=\"ID\" value=\"\" />\n                <Tag name=\"OS\" value=\"\" />\n                <Tag name=\"APP\" value=\"\" />\n                <Tag name=\"CAPABILITY\" value=\"\" />\n                <Tag name=\"ISP\" value=\"Airtel/Vodafone/..\" />\n                <Tag name=\"OSVERSION\" value=\"12.0\" />\n                <Tag name=\"MANUFACTUFER\" value=\"Redmi\" />\n                <Tag name=\"MODEL\" value=\"Note 8 pro\" />\n                <Tag name=\"PACKAGENAME\" value=\"com.tsp.token\" />\n                <Tag name=\"MVERSION\" value=\"11.0\" />\n            </DeviceInfo>\n            <Details>\n                <Detail name=\"tokenId\" value=\"asdghf\"/>\n            </Details>\n        </User>\n    </ReqDetails>\n</token:ReqVerifyToken>",
+  "time": "10007-10-05 45:54:54"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespVerifyToken.go:48",
+  "func": "my-project/Controllers.RespVerifyTokenApi",
+  "level": "info",
+  "msg": "@RespVerifyTokenApi Successfully created request.",
+  "time": "10007-10-05 45:54:54"
+}
+[GIN] 2024/04/10 - 17:49:54 | 200 |     319.261µs |             ::1 | POST     "/Req/RespVerifyToken"

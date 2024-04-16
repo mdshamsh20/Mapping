@@ -1,0 +1,32 @@
+<Head ver="2.0" ts="2022-11-03T14:21:33+05:30" orgId="159022"
+msgId="001OnMMukQsOCTS7FsG8vJW8YmBD5Z4tSz9" prodType="PSO"/>
+<Txn id="001OnMMukQsOCTS7FsG8vJW8YmBD5Z4tSz9" note="FETCHLIST" refId="001OnMMukQsOCTS7FsG8vJW8YmBD5Z4tSz9" refUrl="http://upi" ts="2022-11-
+03T14:21:33+05:30" type="SetCre"/>
+<Payer addr="8007100319@bankd" name="TEST USER_342273" seqNum="1"
+type="PERSON" code="0000">
+        <Device>
+<Tag name="MOBILE" value="918007100319"/> <Tag name="LOCATION" value="0.0,0.0"/> <Tag name="IP" value="192.168.68.107"/> <Tag name="TYPE" value="Android"/>
+            <Tag name="ID" value="OPM1.171019.026"/>
+            <Tag name="OS" value="Android"/>
+<Tag name="APP" value="org.npci.erupeeBANKD"/> <Tag name="GEOCODE" value="123,456"/>
+<Tag name="CAPABILITY" value="1"/>
+</Device>
+<Ac addrType="WALLET">
+            <Details  name="WALLETADDRESS" value="5cf35545ebf04a35a24d328437a0f8f4"/>
+            <Detail name="TSPID" value="159022"/>
+            <Detail name="TYPE" value="WALLET"/>
+        </Ac>
+        <Creds>
+            <Cred type="PIN" subType="TPIN">
+<Data code="NPCI" ki="20150822">2.4.tocken-v1.9_v1|IdvSjg6PE6g2RT8UVDQckUr1bootkoA1dB7sqgmX02PXr1a2qHs6vORymLtp/b7QNCbb
+R7j4yHWq932G60GsX7bQspuyfWBA5gUvKGUpLHJYhgDPLecp87nTt4YSPVEAJk3kJXwFJVnrphST5cRG6DHDrX3cp3eNbIYWpfg29t3F/APVFuVuVDACDQi0Gd0Z1rPdFb7YQdb+gbQ6DqQjq506ziCORWjRUcEV4fRuIJBvporqDyFyQfi/5UsEGCh3hBufYYi5Gm8DUjATXf25yuefGMcat2GBjogiAAd9xqWNysWrdOrmVZBVMkkxVi1WNzVw50MAbNug3PFA44CQyw==</Data>
+            </Cred>
+        </Creds>
+        <NewCred>
+            <Cred type="PIN" subType="NTPIN">
+<Data code="NPCI" ki="20150822">2.4.token- v1.9_v1|Za/PYan/sb2A6ImBKX5L9jD7NQVQSTmF75kXXbokuFmM2eBJc0F81H5q7SBT3yxIUZgz
+2CuEZzIF04Eb3kXKRSabfRJzGFfIgztOjqmlLzsnpgsYmBF9Gcz/G27hp0xTaLDuh2/n Z5LRucxdizKU0Pi6C33+16c9nrh35v+yyer5jo4UN+cY829RgZ/DZI1AhelkNabMjt852Et+P4qx Rt/9uZyuGbML1KUhXzOK8QlGujOS6rbZTZb8DERnkzR1CRkzXq9U+5V9mIJW/VmtnPPo02bZUOgH oXvoWkM/6Rwhgo a5utP9gZU14BTidGJ7VHQ02hBFYhI9i+UxqaUcmA==</Data>
+            </Cred>
+        </NewCred>
+    </Payer>
+</token:ReqSetCre>

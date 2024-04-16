@@ -1,0 +1,756 @@
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-12 412:59:59"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-12 412:35:35"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:65",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "info",
+  "msg": "@RespListKeysGetWallet Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-12-28T14:30:23\" orgId=\"159022\"\nmsgId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" prodType=\"PSO\" />\n    <Txn id=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" note=\"GetWalletKey\" refId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" refUrl=\"http://upi\" ts=\"2022-12-\n28T14:30:23\" type=\"GetWalletKey\" pspOrgId=\"159022\" mobile=\"915000008911\" />\n    <Ac addrType=\"WALLET\">\n        <Detail name=\"WALLETADDRESS\" value=\"512afa7d78b946b4bc09e926ff443345\"\n/>\n    </Ac>\n    <Creds>\n        <Cred type=\"DEVICE\" subType=\"IDENTITY\">\n            <Data code=\"NPCI-LITE\" ki=\"20220829\">3616d7b816c05115|org.npci.erupeeBANKD|915000008911|2.4.token-\nv1.9_v1|eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZHQ00ifQ.mq0irkcPKPnGB3iMlBRlQ lGwz8MUNksWbJ-mFXi8P0Q5fw4HRbJ235VDPbvtKz- wPDoIWVY7eJ9osewXR7mt55wNK5_N8N2LvY9uep931gW3gosFCv_yPKjuE0xNQUYlQ_RjUmg- HF6hCaKy-B9YVW- AHWb2aWAqx7Aa2Hj6PRP9SQAqnZ2w0YEypHxa0Dwjm8pf7NyIjP_IUQl_cy3tUyddhMtZvSfoSR6 09AVYjcmsCX0JKIBuR4myLxBeL5tWz2Fyk0QURgdCP2BlGjXPwsIxEalOtO6tWrFchh- svVwBBMUg5- BH9Z6pjLuDigAgabbyUe_o4vpPJLvsYl8Nbw==.DB_KB8O0O1QmXcrCJoJ3Zw==.nZbYpJsF_xRV o5FN9gzR43ezt6Gwa8OTSiYSSHB3xDVNSkFjtbVNtBqRUSgANgNafeKdAqEwtJsPWUPHt7BIVwPZ giin7BpVuL6WTZqBBUrI66jGCIUQqI6UT5CgfyyWiklwP1anJjWzSBI- ZV2l7rvIN1AxKxOeH7b5ECn4V4grc9KphBoe_OgfhD4PST2F0Dpj9YktEbenH_ElsIp4of07bUtE zBgWiLYukdZ9L9HAiMGqOnYLxZ1zXGS6W0NBiWMrIv13ybpdzDlCtyIAr0j6VJARl7-LIsq- 5q4QOd5JJ7hSX15OfsqoS-FUgWmsnc3fJhwsZMh_9MZudEGlrhDnDrSWR6VCuLgVJfATD- xANmzf- nroxg70HBGcs3IlhzZJrT1KR1Q7ocVx5JHGqTWpwLoYLCCtiB4dBfwwoI028RuCHtbHyJunL5wUO ZtF4vVoknIsTvx3mNevHe05D4hkfH9zHHThtZaJxvi3PBRrRpL2RyvRFJRGNR_l3Mg5grzaqn_De 68O-D1VReQFq0bmkLYOfZwOrel7IzhBnjGXrQtuJ_pPdFbop93VV0zF4E-- pwNbkrll1utviFN7rz1rB3mC5IQRtwQfoZAHgVCZ6N1X8iX38hAEvOU-306CQAtBM- BomJ03Qjg61ojLFj4ZW0yPeSg3pHoNmz03M8pqxsZGPafJDsQ4ZyfZrdB_duOod5c6pbI6o- 4eYkBbUp78rfDaZXkIy4_cOyXNFEqmcSjnoKXo9kG_AamakEUP0ptljCTmluw5vchn5WGdiUTcl9 T9Bi2WFNhipak- XVoVcaOVqPpeXN0kHvkYvPEinl6xiV6ftiRyTFYCCWMRR9_adKNr9Rlm0ewR0krTqg2W4eX2fZRr q0Rsh5FOR_Bvm3B-neUKr67nCVeyCgvyUkuMTdqroB4V69nKM0Py- ceV5P8O6u4Q3ibqkEDaYNpmPLWmn3E52BONELQZp4Aeva- 25Ej1K8kkn17i0_IwtYjdhsfReCriwKBRpLqemPYQZz4ecMjNP1fo3qSqnDQrUzsNQQ1hOfTCYiy FS6GsfuHlyWA2szwNxNM05Zn0YUPPmi9Uoh_Iyjwqi_L8hYrizYkN1GwjYqUlZcfQirvawii1A- vMPJaG9MXzJzvGNKiItMdteWT1ziEACgkmqTJMG8r4jeAg4WSR6jtTuR2_pf1gNNwomyV2zczD_H i2PQneILS5peIej6zYZLUNxmVB_baa8D4Tau_9RiB1mKnMCzCyUgB-6ZF- CGjhRAjua8fRCnqwlQxE9iUoPgNUMtstAJ5- ZT663zWQAuQO5ZsWXoK8nGXXhy5ob9geg3MhlnQWK4DQtyeUCnH-B- tVN8l1moF1CE3ejllF4YSpcXtIT3BV2Iq0rBZ-fVZWDetNFrWR6LE- yH_ch92VrB7K1BRF5qtjv8XuZ27-J9uWFcFOcFeckS- jv6DH4IL10TdtyOSRNHqbETdauvB2V7PFHbfeesYk5wZRT_ndLdPXXNGzkPvZYEq5</Data>\n        </Cred>\n    </Creds>\n</token:ReqListKeys>",
+  "time": "15007-15-12 412:41:41"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:69",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "error",
+  "msg": "@RespListKeysGetWallet Error decoding request body:expected element type <token:ReqListKeys> but have <ReqListKeys>",
+  "time": "15007-15-12 412:41:41"
+}
+[GIN] 2024/04/15 - 12:20:41 | 500 |     324.958µs |             ::1 | POST     "/Req/RespListKeys-GetWallet"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-12 412:45:45"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:65",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "info",
+  "msg": "@RespListKeysGetWallet Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-12-28T14:30:23\" orgId=\"159022\"\nmsgId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" prodType=\"PSO\" />\n    <Txn id=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" note=\"GetWalletKey\" refId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" refUrl=\"http://upi\" ts=\"2022-12-\n28T14:30:23\" type=\"GetWalletKey\" pspOrgId=\"159022\" mobile=\"915000008911\" />\n    <Ac addrType=\"WALLET\">\n        <Detail name=\"WALLETADDRESS\" value=\"512afa7d78b946b4bc09e926ff443345\"\n/>\n    </Ac>\n    <Creds>\n        <Cred type=\"DEVICE\" subType=\"IDENTITY\">\n            <Data code=\"NPCI-LITE\" ki=\"20220829\">3616d7b816c05115|org.npci.erupeeBANKD|915000008911|2.4.token-\nv1.9_v1|eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZHQ00ifQ.mq0irkcPKPnGB3iMlBRlQ lGwz8MUNksWbJ-mFXi8P0Q5fw4HRbJ235VDPbvtKz- wPDoIWVY7eJ9osewXR7mt55wNK5_N8N2LvY9uep931gW3gosFCv_yPKjuE0xNQUYlQ_RjUmg- HF6hCaKy-B9YVW- AHWb2aWAqx7Aa2Hj6PRP9SQAqnZ2w0YEypHxa0Dwjm8pf7NyIjP_IUQl_cy3tUyddhMtZvSfoSR6 09AVYjcmsCX0JKIBuR4myLxBeL5tWz2Fyk0QURgdCP2BlGjXPwsIxEalOtO6tWrFchh- svVwBBMUg5- BH9Z6pjLuDigAgabbyUe_o4vpPJLvsYl8Nbw==.DB_KB8O0O1QmXcrCJoJ3Zw==.nZbYpJsF_xRV o5FN9gzR43ezt6Gwa8OTSiYSSHB3xDVNSkFjtbVNtBqRUSgANgNafeKdAqEwtJsPWUPHt7BIVwPZ giin7BpVuL6WTZqBBUrI66jGCIUQqI6UT5CgfyyWiklwP1anJjWzSBI- ZV2l7rvIN1AxKxOeH7b5ECn4V4grc9KphBoe_OgfhD4PST2F0Dpj9YktEbenH_ElsIp4of07bUtE zBgWiLYukdZ9L9HAiMGqOnYLxZ1zXGS6W0NBiWMrIv13ybpdzDlCtyIAr0j6VJARl7-LIsq- 5q4QOd5JJ7hSX15OfsqoS-FUgWmsnc3fJhwsZMh_9MZudEGlrhDnDrSWR6VCuLgVJfATD- xANmzf- nroxg70HBGcs3IlhzZJrT1KR1Q7ocVx5JHGqTWpwLoYLCCtiB4dBfwwoI028RuCHtbHyJunL5wUO ZtF4vVoknIsTvx3mNevHe05D4hkfH9zHHThtZaJxvi3PBRrRpL2RyvRFJRGNR_l3Mg5grzaqn_De 68O-D1VReQFq0bmkLYOfZwOrel7IzhBnjGXrQtuJ_pPdFbop93VV0zF4E-- pwNbkrll1utviFN7rz1rB3mC5IQRtwQfoZAHgVCZ6N1X8iX38hAEvOU-306CQAtBM- BomJ03Qjg61ojLFj4ZW0yPeSg3pHoNmz03M8pqxsZGPafJDsQ4ZyfZrdB_duOod5c6pbI6o- 4eYkBbUp78rfDaZXkIy4_cOyXNFEqmcSjnoKXo9kG_AamakEUP0ptljCTmluw5vchn5WGdiUTcl9 T9Bi2WFNhipak- XVoVcaOVqPpeXN0kHvkYvPEinl6xiV6ftiRyTFYCCWMRR9_adKNr9Rlm0ewR0krTqg2W4eX2fZRr q0Rsh5FOR_Bvm3B-neUKr67nCVeyCgvyUkuMTdqroB4V69nKM0Py- ceV5P8O6u4Q3ibqkEDaYNpmPLWmn3E52BONELQZp4Aeva- 25Ej1K8kkn17i0_IwtYjdhsfReCriwKBRpLqemPYQZz4ecMjNP1fo3qSqnDQrUzsNQQ1hOfTCYiy FS6GsfuHlyWA2szwNxNM05Zn0YUPPmi9Uoh_Iyjwqi_L8hYrizYkN1GwjYqUlZcfQirvawii1A- vMPJaG9MXzJzvGNKiItMdteWT1ziEACgkmqTJMG8r4jeAg4WSR6jtTuR2_pf1gNNwomyV2zczD_H i2PQneILS5peIej6zYZLUNxmVB_baa8D4Tau_9RiB1mKnMCzCyUgB-6ZF- CGjhRAjua8fRCnqwlQxE9iUoPgNUMtstAJ5- ZT663zWQAuQO5ZsWXoK8nGXXhy5ob9geg3MhlnQWK4DQtyeUCnH-B- tVN8l1moF1CE3ejllF4YSpcXtIT3BV2Iq0rBZ-fVZWDetNFrWR6LE- yH_ch92VrB7K1BRF5qtjv8XuZ27-J9uWFcFOcFeckS- jv6DH4IL10TdtyOSRNHqbETdauvB2V7PFHbfeesYk5wZRT_ndLdPXXNGzkPvZYEq5</Data>\n        </Cred>\n    </Creds>\n</token:ReqListKeys>",
+  "time": "15007-15-12 412:50:50"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:252",
+  "func": "my-project/Controllers.RespListKeysGetWalletfunc",
+  "level": "error",
+  "msg": "xml: name \"signatureValue\" in tag of Controllers.ParamListSignature.SignatureValue conflicts with name \"paramValue\" in Controllers.ParamValue.XMLName500",
+  "time": "15007-15-12 412:50:50"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:75",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "error",
+  "msg": "@RespListKeysGetWallet Error: <nil>",
+  "time": "15007-15-12 412:50:50"
+}
+[GIN] 2024/04/15 - 12:21:50 | 500 |     657.901µs |             ::1 | POST     "/Req/RespListKeys-GetWallet"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-01 41:34:34"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:66",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "info",
+  "msg": "@RespListKeysGetWallet Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-12-28T14:30:23\" orgId=\"159022\"\nmsgId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" prodType=\"PSO\" />\n    <Txn id=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" note=\"GetWalletKey\" refId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" refUrl=\"http://upi\" ts=\"2022-12-\n28T14:30:23\" type=\"GetWalletKey\" pspOrgId=\"159022\" mobile=\"915000008911\" />\n    <Ac addrType=\"WALLET\">\n        <Detail name=\"WALLETADDRESS\" value=\"512afa7d78b946b4bc09e926ff443345\"\n/>\n    </Ac>\n    <Creds>\n        <Cred type=\"DEVICE\" subType=\"IDENTITY\">\n            <Data code=\"NPCI-LITE\" ki=\"20220829\">3616d7b816c05115|org.npci.erupeeBANKD|915000008911|2.4.token-\nv1.9_v1|eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZHQ00ifQ.mq0irkcPKPnGB3iMlBRlQ lGwz8MUNksWbJ-mFXi8P0Q5fw4HRbJ235VDPbvtKz- wPDoIWVY7eJ9osewXR7mt55wNK5_N8N2LvY9uep931gW3gosFCv_yPKjuE0xNQUYlQ_RjUmg- HF6hCaKy-B9YVW- AHWb2aWAqx7Aa2Hj6PRP9SQAqnZ2w0YEypHxa0Dwjm8pf7NyIjP_IUQl_cy3tUyddhMtZvSfoSR6 09AVYjcmsCX0JKIBuR4myLxBeL5tWz2Fyk0QURgdCP2BlGjXPwsIxEalOtO6tWrFchh- svVwBBMUg5- BH9Z6pjLuDigAgabbyUe_o4vpPJLvsYl8Nbw==.DB_KB8O0O1QmXcrCJoJ3Zw==.nZbYpJsF_xRV o5FN9gzR43ezt6Gwa8OTSiYSSHB3xDVNSkFjtbVNtBqRUSgANgNafeKdAqEwtJsPWUPHt7BIVwPZ giin7BpVuL6WTZqBBUrI66jGCIUQqI6UT5CgfyyWiklwP1anJjWzSBI- ZV2l7rvIN1AxKxOeH7b5ECn4V4grc9KphBoe_OgfhD4PST2F0Dpj9YktEbenH_ElsIp4of07bUtE zBgWiLYukdZ9L9HAiMGqOnYLxZ1zXGS6W0NBiWMrIv13ybpdzDlCtyIAr0j6VJARl7-LIsq- 5q4QOd5JJ7hSX15OfsqoS-FUgWmsnc3fJhwsZMh_9MZudEGlrhDnDrSWR6VCuLgVJfATD- xANmzf- nroxg70HBGcs3IlhzZJrT1KR1Q7ocVx5JHGqTWpwLoYLCCtiB4dBfwwoI028RuCHtbHyJunL5wUO ZtF4vVoknIsTvx3mNevHe05D4hkfH9zHHThtZaJxvi3PBRrRpL2RyvRFJRGNR_l3Mg5grzaqn_De 68O-D1VReQFq0bmkLYOfZwOrel7IzhBnjGXrQtuJ_pPdFbop93VV0zF4E-- pwNbkrll1utviFN7rz1rB3mC5IQRtwQfoZAHgVCZ6N1X8iX38hAEvOU-306CQAtBM- BomJ03Qjg61ojLFj4ZW0yPeSg3pHoNmz03M8pqxsZGPafJDsQ4ZyfZrdB_duOod5c6pbI6o- 4eYkBbUp78rfDaZXkIy4_cOyXNFEqmcSjnoKXo9kG_AamakEUP0ptljCTmluw5vchn5WGdiUTcl9 T9Bi2WFNhipak- XVoVcaOVqPpeXN0kHvkYvPEinl6xiV6ftiRyTFYCCWMRR9_adKNr9Rlm0ewR0krTqg2W4eX2fZRr q0Rsh5FOR_Bvm3B-neUKr67nCVeyCgvyUkuMTdqroB4V69nKM0Py- ceV5P8O6u4Q3ibqkEDaYNpmPLWmn3E52BONELQZp4Aeva- 25Ej1K8kkn17i0_IwtYjdhsfReCriwKBRpLqemPYQZz4ecMjNP1fo3qSqnDQrUzsNQQ1hOfTCYiy FS6GsfuHlyWA2szwNxNM05Zn0YUPPmi9Uoh_Iyjwqi_L8hYrizYkN1GwjYqUlZcfQirvawii1A- vMPJaG9MXzJzvGNKiItMdteWT1ziEACgkmqTJMG8r4jeAg4WSR6jtTuR2_pf1gNNwomyV2zczD_H i2PQneILS5peIej6zYZLUNxmVB_baa8D4Tau_9RiB1mKnMCzCyUgB-6ZF- CGjhRAjua8fRCnqwlQxE9iUoPgNUMtstAJ5- ZT663zWQAuQO5ZsWXoK8nGXXhy5ob9geg3MhlnQWK4DQtyeUCnH-B- tVN8l1moF1CE3ejllF4YSpcXtIT3BV2Iq0rBZ-fVZWDetNFrWR6LE- yH_ch92VrB7K1BRF5qtjv8XuZ27-J9uWFcFOcFeckS- jv6DH4IL10TdtyOSRNHqbETdauvB2V7PFHbfeesYk5wZRT_ndLdPXXNGzkPvZYEq5</Data>\n        </Cred>\n    </Creds>\n</token:ReqListKeys>",
+  "time": "15007-15-01 41:40:40"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:80",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "info",
+  "msg": "@RespListKeysGetWallet Successfully created request.",
+  "time": "15007-15-01 41:40:40"
+}
+[GIN] 2024/04/15 - 13:56:40 | 200 |     781.785µs |             ::1 | POST     "/Req/RespListKeys-GetWallet"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-02 42:50:50"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:66",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "info",
+  "msg": "@RespListKeysGetWallet Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-12-28T14:30:23\" orgId=\"159022\"\nmsgId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" prodType=\"PSO\" />\n    <Txn id=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" note=\"GetWalletKey\" refId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" refUrl=\"http://upi\" ts=\"2022-12-\n28T14:30:23\" type=\"GetWalletKey\" pspOrgId=\"159022\" mobile=\"915000008911\" />\n    <Ac addrType=\"WALLET\">\n        <Detail name=\"WALLETADDRESS\" value=\"512afa7d78b946b4bc09e926ff443345\"\n/>\n    </Ac>\n    <Creds>\n        <Cred type=\"DEVICE\" subType=\"IDENTITY\">\n            <Data code=\"NPCI-LITE\" ki=\"20220829\">3616d7b816c05115|org.npci.erupeeBANKD|915000008911|2.4.token-\nv1.9_v1|eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZHQ00ifQ.mq0irkcPKPnGB3iMlBRlQ lGwz8MUNksWbJ-mFXi8P0Q5fw4HRbJ235VDPbvtKz- wPDoIWVY7eJ9osewXR7mt55wNK5_N8N2LvY9uep931gW3gosFCv_yPKjuE0xNQUYlQ_RjUmg- HF6hCaKy-B9YVW- AHWb2aWAqx7Aa2Hj6PRP9SQAqnZ2w0YEypHxa0Dwjm8pf7NyIjP_IUQl_cy3tUyddhMtZvSfoSR6 09AVYjcmsCX0JKIBuR4myLxBeL5tWz2Fyk0QURgdCP2BlGjXPwsIxEalOtO6tWrFchh- svVwBBMUg5- BH9Z6pjLuDigAgabbyUe_o4vpPJLvsYl8Nbw==.DB_KB8O0O1QmXcrCJoJ3Zw==.nZbYpJsF_xRV o5FN9gzR43ezt6Gwa8OTSiYSSHB3xDVNSkFjtbVNtBqRUSgANgNafeKdAqEwtJsPWUPHt7BIVwPZ giin7BpVuL6WTZqBBUrI66jGCIUQqI6UT5CgfyyWiklwP1anJjWzSBI- ZV2l7rvIN1AxKxOeH7b5ECn4V4grc9KphBoe_OgfhD4PST2F0Dpj9YktEbenH_ElsIp4of07bUtE zBgWiLYukdZ9L9HAiMGqOnYLxZ1zXGS6W0NBiWMrIv13ybpdzDlCtyIAr0j6VJARl7-LIsq- 5q4QOd5JJ7hSX15OfsqoS-FUgWmsnc3fJhwsZMh_9MZudEGlrhDnDrSWR6VCuLgVJfATD- xANmzf- nroxg70HBGcs3IlhzZJrT1KR1Q7ocVx5JHGqTWpwLoYLCCtiB4dBfwwoI028RuCHtbHyJunL5wUO ZtF4vVoknIsTvx3mNevHe05D4hkfH9zHHThtZaJxvi3PBRrRpL2RyvRFJRGNR_l3Mg5grzaqn_De 68O-D1VReQFq0bmkLYOfZwOrel7IzhBnjGXrQtuJ_pPdFbop93VV0zF4E-- pwNbkrll1utviFN7rz1rB3mC5IQRtwQfoZAHgVCZ6N1X8iX38hAEvOU-306CQAtBM- BomJ03Qjg61ojLFj4ZW0yPeSg3pHoNmz03M8pqxsZGPafJDsQ4ZyfZrdB_duOod5c6pbI6o- 4eYkBbUp78rfDaZXkIy4_cOyXNFEqmcSjnoKXo9kG_AamakEUP0ptljCTmluw5vchn5WGdiUTcl9 T9Bi2WFNhipak- XVoVcaOVqPpeXN0kHvkYvPEinl6xiV6ftiRyTFYCCWMRR9_adKNr9Rlm0ewR0krTqg2W4eX2fZRr q0Rsh5FOR_Bvm3B-neUKr67nCVeyCgvyUkuMTdqroB4V69nKM0Py- ceV5P8O6u4Q3ibqkEDaYNpmPLWmn3E52BONELQZp4Aeva- 25Ej1K8kkn17i0_IwtYjdhsfReCriwKBRpLqemPYQZz4ecMjNP1fo3qSqnDQrUzsNQQ1hOfTCYiy FS6GsfuHlyWA2szwNxNM05Zn0YUPPmi9Uoh_Iyjwqi_L8hYrizYkN1GwjYqUlZcfQirvawii1A- vMPJaG9MXzJzvGNKiItMdteWT1ziEACgkmqTJMG8r4jeAg4WSR6jtTuR2_pf1gNNwomyV2zczD_H i2PQneILS5peIej6zYZLUNxmVB_baa8D4Tau_9RiB1mKnMCzCyUgB-6ZF- CGjhRAjua8fRCnqwlQxE9iUoPgNUMtstAJ5- ZT663zWQAuQO5ZsWXoK8nGXXhy5ob9geg3MhlnQWK4DQtyeUCnH-B- tVN8l1moF1CE3ejllF4YSpcXtIT3BV2Iq0rBZ-fVZWDetNFrWR6LE- yH_ch92VrB7K1BRF5qtjv8XuZ27-J9uWFcFOcFeckS- jv6DH4IL10TdtyOSRNHqbETdauvB2V7PFHbfeesYk5wZRT_ndLdPXXNGzkPvZYEq5</Data>\n        </Cred>\n    </Creds>\n</token:ReqListKeys>",
+  "time": "15007-15-02 42:55:55"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:80",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "info",
+  "msg": "@RespListKeysGetWallet Successfully created request.",
+  "time": "15007-15-02 42:55:55"
+}
+[GIN] 2024/04/15 - 14:08:55 | 200 |     896.867µs |             ::1 | POST     "/Req/RespListKeys-GetWallet"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-02 42:26:26"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:66",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "info",
+  "msg": "@RespListKeysGetWallet Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-12-28T14:30:23\" orgId=\"159022\"\nmsgId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" prodType=\"PSO\" />\n    <Txn id=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" note=\"GetWalletKey\" refId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" refUrl=\"http://upi\" ts=\"2022-12-\n28T14:30:23\" type=\"GetWalletKey\" pspOrgId=\"159022\" mobile=\"915000008911\" />\n    <Ac addrType=\"WALLET\">\n        <Detail name=\"WALLETADDRESS\" value=\"512afa7d78b946b4bc09e926ff443345\"\n/>\n    </Ac>\n    <Creds>\n        <Cred type=\"DEVICE\" subType=\"IDENTITY\">\n            <Data code=\"NPCI-LITE\" ki=\"20220829\">3616d7b816c05115|org.npci.erupeeBANKD|915000008911|2.4.token-\nv1.9_v1|eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZHQ00ifQ.mq0irkcPKPnGB3iMlBRlQ lGwz8MUNksWbJ-mFXi8P0Q5fw4HRbJ235VDPbvtKz- wPDoIWVY7eJ9osewXR7mt55wNK5_N8N2LvY9uep931gW3gosFCv_yPKjuE0xNQUYlQ_RjUmg- HF6hCaKy-B9YVW- AHWb2aWAqx7Aa2Hj6PRP9SQAqnZ2w0YEypHxa0Dwjm8pf7NyIjP_IUQl_cy3tUyddhMtZvSfoSR6 09AVYjcmsCX0JKIBuR4myLxBeL5tWz2Fyk0QURgdCP2BlGjXPwsIxEalOtO6tWrFchh- svVwBBMUg5- BH9Z6pjLuDigAgabbyUe_o4vpPJLvsYl8Nbw==.DB_KB8O0O1QmXcrCJoJ3Zw==.nZbYpJsF_xRV o5FN9gzR43ezt6Gwa8OTSiYSSHB3xDVNSkFjtbVNtBqRUSgANgNafeKdAqEwtJsPWUPHt7BIVwPZ giin7BpVuL6WTZqBBUrI66jGCIUQqI6UT5CgfyyWiklwP1anJjWzSBI- ZV2l7rvIN1AxKxOeH7b5ECn4V4grc9KphBoe_OgfhD4PST2F0Dpj9YktEbenH_ElsIp4of07bUtE zBgWiLYukdZ9L9HAiMGqOnYLxZ1zXGS6W0NBiWMrIv13ybpdzDlCtyIAr0j6VJARl7-LIsq- 5q4QOd5JJ7hSX15OfsqoS-FUgWmsnc3fJhwsZMh_9MZudEGlrhDnDrSWR6VCuLgVJfATD- xANmzf- nroxg70HBGcs3IlhzZJrT1KR1Q7ocVx5JHGqTWpwLoYLCCtiB4dBfwwoI028RuCHtbHyJunL5wUO ZtF4vVoknIsTvx3mNevHe05D4hkfH9zHHThtZaJxvi3PBRrRpL2RyvRFJRGNR_l3Mg5grzaqn_De 68O-D1VReQFq0bmkLYOfZwOrel7IzhBnjGXrQtuJ_pPdFbop93VV0zF4E-- pwNbkrll1utviFN7rz1rB3mC5IQRtwQfoZAHgVCZ6N1X8iX38hAEvOU-306CQAtBM- BomJ03Qjg61ojLFj4ZW0yPeSg3pHoNmz03M8pqxsZGPafJDsQ4ZyfZrdB_duOod5c6pbI6o- 4eYkBbUp78rfDaZXkIy4_cOyXNFEqmcSjnoKXo9kG_AamakEUP0ptljCTmluw5vchn5WGdiUTcl9 T9Bi2WFNhipak- XVoVcaOVqPpeXN0kHvkYvPEinl6xiV6ftiRyTFYCCWMRR9_adKNr9Rlm0ewR0krTqg2W4eX2fZRr q0Rsh5FOR_Bvm3B-neUKr67nCVeyCgvyUkuMTdqroB4V69nKM0Py- ceV5P8O6u4Q3ibqkEDaYNpmPLWmn3E52BONELQZp4Aeva- 25Ej1K8kkn17i0_IwtYjdhsfReCriwKBRpLqemPYQZz4ecMjNP1fo3qSqnDQrUzsNQQ1hOfTCYiy FS6GsfuHlyWA2szwNxNM05Zn0YUPPmi9Uoh_Iyjwqi_L8hYrizYkN1GwjYqUlZcfQirvawii1A- vMPJaG9MXzJzvGNKiItMdteWT1ziEACgkmqTJMG8r4jeAg4WSR6jtTuR2_pf1gNNwomyV2zczD_H i2PQneILS5peIej6zYZLUNxmVB_baa8D4Tau_9RiB1mKnMCzCyUgB-6ZF- CGjhRAjua8fRCnqwlQxE9iUoPgNUMtstAJ5- ZT663zWQAuQO5ZsWXoK8nGXXhy5ob9geg3MhlnQWK4DQtyeUCnH-B- tVN8l1moF1CE3ejllF4YSpcXtIT3BV2Iq0rBZ-fVZWDetNFrWR6LE- yH_ch92VrB7K1BRF5qtjv8XuZ27-J9uWFcFOcFeckS- jv6DH4IL10TdtyOSRNHqbETdauvB2V7PFHbfeesYk5wZRT_ndLdPXXNGzkPvZYEq5</Data>\n        </Cred>\n    </Creds>\n</token:ReqListKeys>",
+  "time": "15007-15-02 42:29:29"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:80",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "info",
+  "msg": "@RespListKeysGetWallet Successfully created request.",
+  "time": "15007-15-02 42:29:29"
+}
+[GIN] 2024/04/15 - 14:29:29 | 200 |     911.215µs |             ::1 | POST     "/Req/RespListKeys-GetWallet"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-02 42:52:52"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:66",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "info",
+  "msg": "@RespListKeysGetWallet Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-12-28T14:30:23\" orgId=\"159022\"\nmsgId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" prodType=\"PSO\" />\n    <Txn id=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" note=\"GetWalletKey\" refId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" refUrl=\"http://upi\" ts=\"2022-12-\n28T14:30:23\" type=\"GetWalletKey\" pspOrgId=\"159022\" mobile=\"915000008911\" />\n    <Ac addrType=\"WALLET\">\n        <Detail name=\"WALLETADDRESS\" value=\"512afa7d78b946b4bc09e926ff443345\"\n/>\n    </Ac>\n    <Creds>\n        <Cred type=\"DEVICE\" subType=\"IDENTITY\">\n            <Data code=\"NPCI-LITE\" ki=\"20220829\">3616d7b816c05115|org.npci.erupeeBANKD|915000008911|2.4.token-\nv1.9_v1|eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZHQ00ifQ.mq0irkcPKPnGB3iMlBRlQ lGwz8MUNksWbJ-mFXi8P0Q5fw4HRbJ235VDPbvtKz- wPDoIWVY7eJ9osewXR7mt55wNK5_N8N2LvY9uep931gW3gosFCv_yPKjuE0xNQUYlQ_RjUmg- HF6hCaKy-B9YVW- AHWb2aWAqx7Aa2Hj6PRP9SQAqnZ2w0YEypHxa0Dwjm8pf7NyIjP_IUQl_cy3tUyddhMtZvSfoSR6 09AVYjcmsCX0JKIBuR4myLxBeL5tWz2Fyk0QURgdCP2BlGjXPwsIxEalOtO6tWrFchh- svVwBBMUg5- BH9Z6pjLuDigAgabbyUe_o4vpPJLvsYl8Nbw==.DB_KB8O0O1QmXcrCJoJ3Zw==.nZbYpJsF_xRV o5FN9gzR43ezt6Gwa8OTSiYSSHB3xDVNSkFjtbVNtBqRUSgANgNafeKdAqEwtJsPWUPHt7BIVwPZ giin7BpVuL6WTZqBBUrI66jGCIUQqI6UT5CgfyyWiklwP1anJjWzSBI- ZV2l7rvIN1AxKxOeH7b5ECn4V4grc9KphBoe_OgfhD4PST2F0Dpj9YktEbenH_ElsIp4of07bUtE zBgWiLYukdZ9L9HAiMGqOnYLxZ1zXGS6W0NBiWMrIv13ybpdzDlCtyIAr0j6VJARl7-LIsq- 5q4QOd5JJ7hSX15OfsqoS-FUgWmsnc3fJhwsZMh_9MZudEGlrhDnDrSWR6VCuLgVJfATD- xANmzf- nroxg70HBGcs3IlhzZJrT1KR1Q7ocVx5JHGqTWpwLoYLCCtiB4dBfwwoI028RuCHtbHyJunL5wUO ZtF4vVoknIsTvx3mNevHe05D4hkfH9zHHThtZaJxvi3PBRrRpL2RyvRFJRGNR_l3Mg5grzaqn_De 68O-D1VReQFq0bmkLYOfZwOrel7IzhBnjGXrQtuJ_pPdFbop93VV0zF4E-- pwNbkrll1utviFN7rz1rB3mC5IQRtwQfoZAHgVCZ6N1X8iX38hAEvOU-306CQAtBM- BomJ03Qjg61ojLFj4ZW0yPeSg3pHoNmz03M8pqxsZGPafJDsQ4ZyfZrdB_duOod5c6pbI6o- 4eYkBbUp78rfDaZXkIy4_cOyXNFEqmcSjnoKXo9kG_AamakEUP0ptljCTmluw5vchn5WGdiUTcl9 T9Bi2WFNhipak- XVoVcaOVqPpeXN0kHvkYvPEinl6xiV6ftiRyTFYCCWMRR9_adKNr9Rlm0ewR0krTqg2W4eX2fZRr q0Rsh5FOR_Bvm3B-neUKr67nCVeyCgvyUkuMTdqroB4V69nKM0Py- ceV5P8O6u4Q3ibqkEDaYNpmPLWmn3E52BONELQZp4Aeva- 25Ej1K8kkn17i0_IwtYjdhsfReCriwKBRpLqemPYQZz4ecMjNP1fo3qSqnDQrUzsNQQ1hOfTCYiy FS6GsfuHlyWA2szwNxNM05Zn0YUPPmi9Uoh_Iyjwqi_L8hYrizYkN1GwjYqUlZcfQirvawii1A- vMPJaG9MXzJzvGNKiItMdteWT1ziEACgkmqTJMG8r4jeAg4WSR6jtTuR2_pf1gNNwomyV2zczD_H i2PQneILS5peIej6zYZLUNxmVB_baa8D4Tau_9RiB1mKnMCzCyUgB-6ZF- CGjhRAjua8fRCnqwlQxE9iUoPgNUMtstAJ5- ZT663zWQAuQO5ZsWXoK8nGXXhy5ob9geg3MhlnQWK4DQtyeUCnH-B- tVN8l1moF1CE3ejllF4YSpcXtIT3BV2Iq0rBZ-fVZWDetNFrWR6LE- yH_ch92VrB7K1BRF5qtjv8XuZ27-J9uWFcFOcFeckS- jv6DH4IL10TdtyOSRNHqbETdauvB2V7PFHbfeesYk5wZRT_ndLdPXXNGzkPvZYEq5</Data>\n        </Cred>\n    </Creds>\n</token:ReqListKeys>",
+  "time": "15007-15-02 42:54:54"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:80",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "info",
+  "msg": "@RespListKeysGetWallet Successfully created request.",
+  "time": "15007-15-02 42:54:54"
+}
+[GIN] 2024/04/15 - 14:33:54 | 200 |     921.075µs |             ::1 | POST     "/Req/RespListKeys-GetWallet"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-02 42:10:10"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:66",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "info",
+  "msg": "@RespListKeysGetWallet Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-12-28T14:30:23\" orgId=\"159022\"\nmsgId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" prodType=\"PSO\" />\n    <Txn id=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" note=\"GetWalletKey\" refId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" refUrl=\"http://upi\" ts=\"2022-12-\n28T14:30:23\" type=\"GetWalletKey\" pspOrgId=\"159022\" mobile=\"915000008911\" />\n    <Ac addrType=\"WALLET\">\n        <Detail name=\"WALLETADDRESS\" value=\"512afa7d78b946b4bc09e926ff443345\"\n/>\n    </Ac>\n    <Creds>\n        <Cred type=\"DEVICE\" subType=\"IDENTITY\">\n            <Data code=\"NPCI-LITE\" ki=\"20220829\">3616d7b816c05115|org.npci.erupeeBANKD|915000008911|2.4.token-\nv1.9_v1|eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZHQ00ifQ.mq0irkcPKPnGB3iMlBRlQ lGwz8MUNksWbJ-mFXi8P0Q5fw4HRbJ235VDPbvtKz- wPDoIWVY7eJ9osewXR7mt55wNK5_N8N2LvY9uep931gW3gosFCv_yPKjuE0xNQUYlQ_RjUmg- HF6hCaKy-B9YVW- AHWb2aWAqx7Aa2Hj6PRP9SQAqnZ2w0YEypHxa0Dwjm8pf7NyIjP_IUQl_cy3tUyddhMtZvSfoSR6 09AVYjcmsCX0JKIBuR4myLxBeL5tWz2Fyk0QURgdCP2BlGjXPwsIxEalOtO6tWrFchh- svVwBBMUg5- BH9Z6pjLuDigAgabbyUe_o4vpPJLvsYl8Nbw==.DB_KB8O0O1QmXcrCJoJ3Zw==.nZbYpJsF_xRV o5FN9gzR43ezt6Gwa8OTSiYSSHB3xDVNSkFjtbVNtBqRUSgANgNafeKdAqEwtJsPWUPHt7BIVwPZ giin7BpVuL6WTZqBBUrI66jGCIUQqI6UT5CgfyyWiklwP1anJjWzSBI- ZV2l7rvIN1AxKxOeH7b5ECn4V4grc9KphBoe_OgfhD4PST2F0Dpj9YktEbenH_ElsIp4of07bUtE zBgWiLYukdZ9L9HAiMGqOnYLxZ1zXGS6W0NBiWMrIv13ybpdzDlCtyIAr0j6VJARl7-LIsq- 5q4QOd5JJ7hSX15OfsqoS-FUgWmsnc3fJhwsZMh_9MZudEGlrhDnDrSWR6VCuLgVJfATD- xANmzf- nroxg70HBGcs3IlhzZJrT1KR1Q7ocVx5JHGqTWpwLoYLCCtiB4dBfwwoI028RuCHtbHyJunL5wUO ZtF4vVoknIsTvx3mNevHe05D4hkfH9zHHThtZaJxvi3PBRrRpL2RyvRFJRGNR_l3Mg5grzaqn_De 68O-D1VReQFq0bmkLYOfZwOrel7IzhBnjGXrQtuJ_pPdFbop93VV0zF4E-- pwNbkrll1utviFN7rz1rB3mC5IQRtwQfoZAHgVCZ6N1X8iX38hAEvOU-306CQAtBM- BomJ03Qjg61ojLFj4ZW0yPeSg3pHoNmz03M8pqxsZGPafJDsQ4ZyfZrdB_duOod5c6pbI6o- 4eYkBbUp78rfDaZXkIy4_cOyXNFEqmcSjnoKXo9kG_AamakEUP0ptljCTmluw5vchn5WGdiUTcl9 T9Bi2WFNhipak- XVoVcaOVqPpeXN0kHvkYvPEinl6xiV6ftiRyTFYCCWMRR9_adKNr9Rlm0ewR0krTqg2W4eX2fZRr q0Rsh5FOR_Bvm3B-neUKr67nCVeyCgvyUkuMTdqroB4V69nKM0Py- ceV5P8O6u4Q3ibqkEDaYNpmPLWmn3E52BONELQZp4Aeva- 25Ej1K8kkn17i0_IwtYjdhsfReCriwKBRpLqemPYQZz4ecMjNP1fo3qSqnDQrUzsNQQ1hOfTCYiy FS6GsfuHlyWA2szwNxNM05Zn0YUPPmi9Uoh_Iyjwqi_L8hYrizYkN1GwjYqUlZcfQirvawii1A- vMPJaG9MXzJzvGNKiItMdteWT1ziEACgkmqTJMG8r4jeAg4WSR6jtTuR2_pf1gNNwomyV2zczD_H i2PQneILS5peIej6zYZLUNxmVB_baa8D4Tau_9RiB1mKnMCzCyUgB-6ZF- CGjhRAjua8fRCnqwlQxE9iUoPgNUMtstAJ5- ZT663zWQAuQO5ZsWXoK8nGXXhy5ob9geg3MhlnQWK4DQtyeUCnH-B- tVN8l1moF1CE3ejllF4YSpcXtIT3BV2Iq0rBZ-fVZWDetNFrWR6LE- yH_ch92VrB7K1BRF5qtjv8XuZ27-J9uWFcFOcFeckS- jv6DH4IL10TdtyOSRNHqbETdauvB2V7PFHbfeesYk5wZRT_ndLdPXXNGzkPvZYEq5</Data>\n        </Cred>\n    </Creds>\n</token:ReqListKeys>",
+  "time": "15007-15-02 42:14:14"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:80",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "info",
+  "msg": "@RespListKeysGetWallet Successfully created request.",
+  "time": "15007-15-02 42:14:14"
+}
+[GIN] 2024/04/15 - 14:55:14 | 200 |     811.569µs |             ::1 | POST     "/Req/RespListKeys-GetWallet"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-02 42:10:10"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:66",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "info",
+  "msg": "@RespListKeysGetWallet Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-12-28T14:30:23\" orgId=\"159022\"\nmsgId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" prodType=\"PSO\" />\n    <Txn id=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" note=\"GetWalletKey\" refId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" refUrl=\"http://upi\" ts=\"2022-12-\n28T14:30:23\" type=\"GetWalletKey\" pspOrgId=\"159022\" mobile=\"915000008911\" />\n    <Ac addrType=\"WALLET\">\n        <Detail name=\"WALLETADDRESS\" value=\"512afa7d78b946b4bc09e926ff443345\"\n/>\n    </Ac>\n    <Creds>\n        <Cred type=\"DEVICE\" subType=\"IDENTITY\">\n            <Data code=\"NPCI-LITE\" ki=\"20220829\">3616d7b816c05115|org.npci.erupeeBANKD|915000008911|2.4.token-\nv1.9_v1|eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZHQ00ifQ.mq0irkcPKPnGB3iMlBRlQ lGwz8MUNksWbJ-mFXi8P0Q5fw4HRbJ235VDPbvtKz- wPDoIWVY7eJ9osewXR7mt55wNK5_N8N2LvY9uep931gW3gosFCv_yPKjuE0xNQUYlQ_RjUmg- HF6hCaKy-B9YVW- AHWb2aWAqx7Aa2Hj6PRP9SQAqnZ2w0YEypHxa0Dwjm8pf7NyIjP_IUQl_cy3tUyddhMtZvSfoSR6 09AVYjcmsCX0JKIBuR4myLxBeL5tWz2Fyk0QURgdCP2BlGjXPwsIxEalOtO6tWrFchh- svVwBBMUg5- BH9Z6pjLuDigAgabbyUe_o4vpPJLvsYl8Nbw==.DB_KB8O0O1QmXcrCJoJ3Zw==.nZbYpJsF_xRV o5FN9gzR43ezt6Gwa8OTSiYSSHB3xDVNSkFjtbVNtBqRUSgANgNafeKdAqEwtJsPWUPHt7BIVwPZ giin7BpVuL6WTZqBBUrI66jGCIUQqI6UT5CgfyyWiklwP1anJjWzSBI- ZV2l7rvIN1AxKxOeH7b5ECn4V4grc9KphBoe_OgfhD4PST2F0Dpj9YktEbenH_ElsIp4of07bUtE zBgWiLYukdZ9L9HAiMGqOnYLxZ1zXGS6W0NBiWMrIv13ybpdzDlCtyIAr0j6VJARl7-LIsq- 5q4QOd5JJ7hSX15OfsqoS-FUgWmsnc3fJhwsZMh_9MZudEGlrhDnDrSWR6VCuLgVJfATD- xANmzf- nroxg70HBGcs3IlhzZJrT1KR1Q7ocVx5JHGqTWpwLoYLCCtiB4dBfwwoI028RuCHtbHyJunL5wUO ZtF4vVoknIsTvx3mNevHe05D4hkfH9zHHThtZaJxvi3PBRrRpL2RyvRFJRGNR_l3Mg5grzaqn_De 68O-D1VReQFq0bmkLYOfZwOrel7IzhBnjGXrQtuJ_pPdFbop93VV0zF4E-- pwNbkrll1utviFN7rz1rB3mC5IQRtwQfoZAHgVCZ6N1X8iX38hAEvOU-306CQAtBM- BomJ03Qjg61ojLFj4ZW0yPeSg3pHoNmz03M8pqxsZGPafJDsQ4ZyfZrdB_duOod5c6pbI6o- 4eYkBbUp78rfDaZXkIy4_cOyXNFEqmcSjnoKXo9kG_AamakEUP0ptljCTmluw5vchn5WGdiUTcl9 T9Bi2WFNhipak- XVoVcaOVqPpeXN0kHvkYvPEinl6xiV6ftiRyTFYCCWMRR9_adKNr9Rlm0ewR0krTqg2W4eX2fZRr q0Rsh5FOR_Bvm3B-neUKr67nCVeyCgvyUkuMTdqroB4V69nKM0Py- ceV5P8O6u4Q3ibqkEDaYNpmPLWmn3E52BONELQZp4Aeva- 25Ej1K8kkn17i0_IwtYjdhsfReCriwKBRpLqemPYQZz4ecMjNP1fo3qSqnDQrUzsNQQ1hOfTCYiy FS6GsfuHlyWA2szwNxNM05Zn0YUPPmi9Uoh_Iyjwqi_L8hYrizYkN1GwjYqUlZcfQirvawii1A- vMPJaG9MXzJzvGNKiItMdteWT1ziEACgkmqTJMG8r4jeAg4WSR6jtTuR2_pf1gNNwomyV2zczD_H i2PQneILS5peIej6zYZLUNxmVB_baa8D4Tau_9RiB1mKnMCzCyUgB-6ZF- CGjhRAjua8fRCnqwlQxE9iUoPgNUMtstAJ5- ZT663zWQAuQO5ZsWXoK8nGXXhy5ob9geg3MhlnQWK4DQtyeUCnH-B- tVN8l1moF1CE3ejllF4YSpcXtIT3BV2Iq0rBZ-fVZWDetNFrWR6LE- yH_ch92VrB7K1BRF5qtjv8XuZ27-J9uWFcFOcFeckS- jv6DH4IL10TdtyOSRNHqbETdauvB2V7PFHbfeesYk5wZRT_ndLdPXXNGzkPvZYEq5</Data>\n        </Cred>\n    </Creds>\n</token:ReqListKeys>",
+  "time": "15007-15-02 42:12:12"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:80",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "info",
+  "msg": "@RespListKeysGetWallet Successfully created request.",
+  "time": "15007-15-02 42:12:12"
+}
+[GIN] 2024/04/15 - 14:56:12 | 200 |     775.161µs |             ::1 | POST     "/Req/RespListKeys-GetWallet"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-02 42:47:47"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:66",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "info",
+  "msg": "@RespListKeysGetWallet Request body:<token:ReqListKeys xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-12-28T14:30:23\" orgId=\"159022\"\nmsgId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" prodType=\"PSO\" />\n    <Txn id=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" note=\"GetWalletKey\" refId=\"001o6BHQEcXAYWaY8fuJvrNFvTbPWKMkjh9\" refUrl=\"http://upi\" ts=\"2022-12-\n28T14:30:23\" type=\"GetWalletKey\" pspOrgId=\"159022\" mobile=\"915000008911\" />\n    <Ac addrType=\"WALLET\">\n        <Detail name=\"WALLETADDRESS\" value=\"512afa7d78b946b4bc09e926ff443345\"\n/>\n    </Ac>\n    <Creds>\n        <Cred type=\"DEVICE\" subType=\"IDENTITY\">\n            <Data code=\"NPCI-LITE\" ki=\"20220829\">3616d7b816c05115|org.npci.erupeeBANKD|915000008911|2.4.token-\nv1.9_v1|eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZHQ00ifQ.mq0irkcPKPnGB3iMlBRlQ lGwz8MUNksWbJ-mFXi8P0Q5fw4HRbJ235VDPbvtKz- wPDoIWVY7eJ9osewXR7mt55wNK5_N8N2LvY9uep931gW3gosFCv_yPKjuE0xNQUYlQ_RjUmg- HF6hCaKy-B9YVW- AHWb2aWAqx7Aa2Hj6PRP9SQAqnZ2w0YEypHxa0Dwjm8pf7NyIjP_IUQl_cy3tUyddhMtZvSfoSR6 09AVYjcmsCX0JKIBuR4myLxBeL5tWz2Fyk0QURgdCP2BlGjXPwsIxEalOtO6tWrFchh- svVwBBMUg5- BH9Z6pjLuDigAgabbyUe_o4vpPJLvsYl8Nbw==.DB_KB8O0O1QmXcrCJoJ3Zw==.nZbYpJsF_xRV o5FN9gzR43ezt6Gwa8OTSiYSSHB3xDVNSkFjtbVNtBqRUSgANgNafeKdAqEwtJsPWUPHt7BIVwPZ giin7BpVuL6WTZqBBUrI66jGCIUQqI6UT5CgfyyWiklwP1anJjWzSBI- ZV2l7rvIN1AxKxOeH7b5ECn4V4grc9KphBoe_OgfhD4PST2F0Dpj9YktEbenH_ElsIp4of07bUtE zBgWiLYukdZ9L9HAiMGqOnYLxZ1zXGS6W0NBiWMrIv13ybpdzDlCtyIAr0j6VJARl7-LIsq- 5q4QOd5JJ7hSX15OfsqoS-FUgWmsnc3fJhwsZMh_9MZudEGlrhDnDrSWR6VCuLgVJfATD- xANmzf- nroxg70HBGcs3IlhzZJrT1KR1Q7ocVx5JHGqTWpwLoYLCCtiB4dBfwwoI028RuCHtbHyJunL5wUO ZtF4vVoknIsTvx3mNevHe05D4hkfH9zHHThtZaJxvi3PBRrRpL2RyvRFJRGNR_l3Mg5grzaqn_De 68O-D1VReQFq0bmkLYOfZwOrel7IzhBnjGXrQtuJ_pPdFbop93VV0zF4E-- pwNbkrll1utviFN7rz1rB3mC5IQRtwQfoZAHgVCZ6N1X8iX38hAEvOU-306CQAtBM- BomJ03Qjg61ojLFj4ZW0yPeSg3pHoNmz03M8pqxsZGPafJDsQ4ZyfZrdB_duOod5c6pbI6o- 4eYkBbUp78rfDaZXkIy4_cOyXNFEqmcSjnoKXo9kG_AamakEUP0ptljCTmluw5vchn5WGdiUTcl9 T9Bi2WFNhipak- XVoVcaOVqPpeXN0kHvkYvPEinl6xiV6ftiRyTFYCCWMRR9_adKNr9Rlm0ewR0krTqg2W4eX2fZRr q0Rsh5FOR_Bvm3B-neUKr67nCVeyCgvyUkuMTdqroB4V69nKM0Py- ceV5P8O6u4Q3ibqkEDaYNpmPLWmn3E52BONELQZp4Aeva- 25Ej1K8kkn17i0_IwtYjdhsfReCriwKBRpLqemPYQZz4ecMjNP1fo3qSqnDQrUzsNQQ1hOfTCYiy FS6GsfuHlyWA2szwNxNM05Zn0YUPPmi9Uoh_Iyjwqi_L8hYrizYkN1GwjYqUlZcfQirvawii1A- vMPJaG9MXzJzvGNKiItMdteWT1ziEACgkmqTJMG8r4jeAg4WSR6jtTuR2_pf1gNNwomyV2zczD_H i2PQneILS5peIej6zYZLUNxmVB_baa8D4Tau_9RiB1mKnMCzCyUgB-6ZF- CGjhRAjua8fRCnqwlQxE9iUoPgNUMtstAJ5- ZT663zWQAuQO5ZsWXoK8nGXXhy5ob9geg3MhlnQWK4DQtyeUCnH-B- tVN8l1moF1CE3ejllF4YSpcXtIT3BV2Iq0rBZ-fVZWDetNFrWR6LE- yH_ch92VrB7K1BRF5qtjv8XuZ27-J9uWFcFOcFeckS- jv6DH4IL10TdtyOSRNHqbETdauvB2V7PFHbfeesYk5wZRT_ndLdPXXNGzkPvZYEq5</Data>\n        </Cred>\n    </Creds>\n</token:ReqListKeys>",
+  "time": "15007-15-02 42:48:48"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/RespListKeysGetWallet.go:80",
+  "func": "my-project/Controllers.RespListKeysGetWalletAPI",
+  "level": "info",
+  "msg": "@RespListKeysGetWallet Successfully created request.",
+  "time": "15007-15-02 42:48:48"
+}
+[GIN] 2024/04/15 - 14:58:48 | 200 |     870.854µs |             ::1 | POST     "/Req/RespListKeys-GetWallet"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-03 43:21:21"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] POST   /ReqRegMob                --> my-project/Controllers.ReqRegMobAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:65",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Request body:<token:ReqRegMob xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-10-13T11:04:34+05:30\" orgId=\"159022\"\nmsgId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" prodType=\"PSO\"/>\n    <Txn id=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" note=\"FETCHLIST\" refId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" refUrl=\"http://upi\" ts=\"2022-10-\n13T11:04:34+05:30\" type=\"PIN\" op=\"set\"/>\n    <Payer addr=\"5000000730@bankd\" name=\"TEST USER_781868\" seqNum=\"1\"\ntype=\"PERSON\" kycType=\"NO\">\n        <Device>\n            <Tag name=\"MOBILE\" value=\"5000000730\"/>\n            <Tag name=\"LOCATION\" value=\"18.570076,73.7623469\"/>\n            <Tag name=\"IP\" value=\"192.168.1.100\"/>\n            <Tag name=\"TYPE\" value=\"Android\"/>\n            <Tag name=\"ID\" value=\"OPM1.171019.026\"/>\n            <Tag name=\"OS\" value=\"Android\"/>\n            <Tag name=\"APP\" value=\"Android\"/>\n            <Tag name=\"GEOCODE\" value=\"geocode\"/>\n            <Tag name=\"TELECOM\" value=\"Vodafone IN\"/>\n                                                           name=\"CAPABILITY\"\n                                                        name=\"WALLETADDRESS\"\nvalue=\"NetworkCapabilities.TRANSPORT_WIFI\"/>\n        </Device>\n        <Ac addrType=\"WALLET\">\nvalue=\"cddb5103b3f9448da484d3e2dd2c5bfd\"/>\n        <Detail name=\"TSPID\" value=\"159022\"/>\n        <Detail name=\"TYPE\" value=\"WALLET\"/>\n    </Ac>\n</Payer>\n<RegDetails type=\"FORMAT2\">\n    <Creds>\n        <Cred type=\"PIN\" subType=\"OTP\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-\nv1.9_v1|Rva9AdbfiqBILQb9wGNzBn6FaOEJyWy0hD0yjdty3InChxsrz+EdCC/HFdkB/61rLzOO X3G2yyxXknuGx5/RzTN1k5INUwlNGAZeISh6tSHjxJa4loNahiymaX05l0 vstK9K5kEPkFKRtMSSt10tr1cww/muhxua5ycOBzrmrDvRCDdhP/j6jeY9jZwDLov/FkNwKFPExe hf/zDxR7HSGetQzBZrEigxVovQWLI6LOlJFajdCn0tewDiAr1Ko8hwgwwiVApd5eQD8YnHorY3kz 7GCkv+k9tGG ZqWNh3SFoBLjWYBna9vaCqnVtqP0/2v8ohQZLPLGkCAWMPZAVKDnw==</Data>\n        </Cred>\n        <Cred type=\"PIN\" subType=\"NTPIN\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-v1.9_v1|Wo7yjiZ2OHs 8gXt4nJ5R8CHO8otEc0OPQ3bhlmHMkcbL9G+ExtPetwWzmcTZXozxIF5AwmeB8Zxf0HnIHSlIiJU 2RWPZt/XRRh5irCN0mqZtp+b3uP0Y2iLkrLVmFliLDte8GvknCTLVJk27EKvqL8WpDGcZb70T2MI 8G1Pgo9el1O 1vrQ0EFtyeZ9Pc9/gtFuusBlSxXweQXE6COYm7LOGpwVwOqXgsGwO2Kt4IrBS1IoOucNyPfZpYeH RdBWQmA84asJZNiMQQiUCxqOUYcBqWw+h4pxOm99RVQLVNQSCw8Qlsz95odc8ZrH1EG5S5ttOJuF tVnbWl7FXjB XtGFw==</Data>\n        </Cred>\n    </Creds>\n</RegDetails>\n</token:ReqRegMob>",
+  "time": "15007-15-03 43:22:22"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:79",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Successfully created request.",
+  "time": "15007-15-03 43:22:22"
+}
+[GIN] 2024/04/15 - 15:26:22 | 200 |     494.582µs |             ::1 | POST     "/ReqRegMob"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-03 43:36:36"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] POST   /ReqRegMob                --> my-project/Controllers.ReqRegMobAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:65",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Request body:<token:ReqRegMob xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-10-13T11:04:34+05:30\" orgId=\"159022\"\nmsgId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" prodType=\"PSO\"/>\n    <Txn id=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" note=\"FETCHLIST\" refId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" refUrl=\"http://upi\" ts=\"2022-10-\n13T11:04:34+05:30\" type=\"PIN\" op=\"set\"/>\n    <Payer addr=\"5000000730@bankd\" name=\"TEST USER_781868\" seqNum=\"1\"\ntype=\"PERSON\" kycType=\"NO\">\n        <Device>\n            <Tag name=\"MOBILE\" value=\"5000000730\"/>\n            <Tag name=\"LOCATION\" value=\"18.570076,73.7623469\"/>\n            <Tag name=\"IP\" value=\"192.168.1.100\"/>\n            <Tag name=\"TYPE\" value=\"Android\"/>\n            <Tag name=\"ID\" value=\"OPM1.171019.026\"/>\n            <Tag name=\"OS\" value=\"Android\"/>\n            <Tag name=\"APP\" value=\"Android\"/>\n            <Tag name=\"GEOCODE\" value=\"geocode\"/>\n            <Tag name=\"TELECOM\" value=\"Vodafone IN\"/>\n                                                           name=\"CAPABILITY\"\n                                                        name=\"WALLETADDRESS\"\nvalue=\"NetworkCapabilities.TRANSPORT_WIFI\"/>\n        </Device>\n        <Ac addrType=\"WALLET\">\nvalue=\"cddb5103b3f9448da484d3e2dd2c5bfd\"/>\n        <Detail name=\"TSPID\" value=\"159022\"/>\n        <Detail name=\"TYPE\" value=\"WALLET\"/>\n    </Ac>\n</Payer>\n<RegDetails type=\"FORMAT2\">\n    <Creds>\n        <Cred type=\"PIN\" subType=\"OTP\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-\nv1.9_v1|Rva9AdbfiqBILQb9wGNzBn6FaOEJyWy0hD0yjdty3InChxsrz+EdCC/HFdkB/61rLzOO X3G2yyxXknuGx5/RzTN1k5INUwlNGAZeISh6tSHjxJa4loNahiymaX05l0 vstK9K5kEPkFKRtMSSt10tr1cww/muhxua5ycOBzrmrDvRCDdhP/j6jeY9jZwDLov/FkNwKFPExe hf/zDxR7HSGetQzBZrEigxVovQWLI6LOlJFajdCn0tewDiAr1Ko8hwgwwiVApd5eQD8YnHorY3kz 7GCkv+k9tGG ZqWNh3SFoBLjWYBna9vaCqnVtqP0/2v8ohQZLPLGkCAWMPZAVKDnw==</Data>\n        </Cred>\n        <Cred type=\"PIN\" subType=\"NTPIN\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-v1.9_v1|Wo7yjiZ2OHs 8gXt4nJ5R8CHO8otEc0OPQ3bhlmHMkcbL9G+ExtPetwWzmcTZXozxIF5AwmeB8Zxf0HnIHSlIiJU 2RWPZt/XRRh5irCN0mqZtp+b3uP0Y2iLkrLVmFliLDte8GvknCTLVJk27EKvqL8WpDGcZb70T2MI 8G1Pgo9el1O 1vrQ0EFtyeZ9Pc9/gtFuusBlSxXweQXE6COYm7LOGpwVwOqXgsGwO2Kt4IrBS1IoOucNyPfZpYeH RdBWQmA84asJZNiMQQiUCxqOUYcBqWw+h4pxOm99RVQLVNQSCw8Qlsz95odc8ZrH1EG5S5ttOJuF tVnbWl7FXjB XtGFw==</Data>\n        </Cred>\n    </Creds>\n</RegDetails>\n</token:ReqRegMob>",
+  "time": "15007-15-03 43:38:38"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:79",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Successfully created request.",
+  "time": "15007-15-03 43:38:38"
+}
+[GIN] 2024/04/15 - 15:48:38 | 200 |     729.962µs |             ::1 | POST     "/ReqRegMob"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-03 43:23:23"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] POST   /ReqRegMob                --> my-project/Controllers.ReqRegMobAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:65",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Request body:<token:ReqRegMob xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-10-13T11:04:34+05:30\" orgId=\"159022\"\nmsgId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" prodType=\"PSO\"/>\n    <Txn id=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" note=\"FETCHLIST\" refId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" refUrl=\"http://upi\" ts=\"2022-10-\n13T11:04:34+05:30\" type=\"PIN\" op=\"set\"/>\n    <Payer addr=\"5000000730@bankd\" name=\"TEST USER_781868\" seqNum=\"1\"\ntype=\"PERSON\" kycType=\"NO\">\n        <Device>\n            <Tag name=\"MOBILE\" value=\"5000000730\"/>\n            <Tag name=\"LOCATION\" value=\"18.570076,73.7623469\"/>\n            <Tag name=\"IP\" value=\"192.168.1.100\"/>\n            <Tag name=\"TYPE\" value=\"Android\"/>\n            <Tag name=\"ID\" value=\"OPM1.171019.026\"/>\n            <Tag name=\"OS\" value=\"Android\"/>\n            <Tag name=\"APP\" value=\"Android\"/>\n            <Tag name=\"GEOCODE\" value=\"geocode\"/>\n            <Tag name=\"TELECOM\" value=\"Vodafone IN\"/>\n                                                           name=\"CAPABILITY\"\n                                                        name=\"WALLETADDRESS\"\nvalue=\"NetworkCapabilities.TRANSPORT_WIFI\"/>\n        </Device>\n        <Ac addrType=\"WALLET\">\nvalue=\"cddb5103b3f9448da484d3e2dd2c5bfd\"/>\n        <Detail name=\"TSPID\" value=\"159022\"/>\n        <Detail name=\"TYPE\" value=\"WALLET\"/>\n    </Ac>\n</Payer>\n<RegDetails type=\"FORMAT2\">\n    <Creds>\n        <Cred type=\"PIN\" subType=\"OTP\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-\nv1.9_v1|Rva9AdbfiqBILQb9wGNzBn6FaOEJyWy0hD0yjdty3InChxsrz+EdCC/HFdkB/61rLzOO X3G2yyxXknuGx5/RzTN1k5INUwlNGAZeISh6tSHjxJa4loNahiymaX05l0 vstK9K5kEPkFKRtMSSt10tr1cww/muhxua5ycOBzrmrDvRCDdhP/j6jeY9jZwDLov/FkNwKFPExe hf/zDxR7HSGetQzBZrEigxVovQWLI6LOlJFajdCn0tewDiAr1Ko8hwgwwiVApd5eQD8YnHorY3kz 7GCkv+k9tGG ZqWNh3SFoBLjWYBna9vaCqnVtqP0/2v8ohQZLPLGkCAWMPZAVKDnw==</Data>\n        </Cred>\n        <Cred type=\"PIN\" subType=\"NTPIN\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-v1.9_v1|Wo7yjiZ2OHs 8gXt4nJ5R8CHO8otEc0OPQ3bhlmHMkcbL9G+ExtPetwWzmcTZXozxIF5AwmeB8Zxf0HnIHSlIiJU 2RWPZt/XRRh5irCN0mqZtp+b3uP0Y2iLkrLVmFliLDte8GvknCTLVJk27EKvqL8WpDGcZb70T2MI 8G1Pgo9el1O 1vrQ0EFtyeZ9Pc9/gtFuusBlSxXweQXE6COYm7LOGpwVwOqXgsGwO2Kt4IrBS1IoOucNyPfZpYeH RdBWQmA84asJZNiMQQiUCxqOUYcBqWw+h4pxOm99RVQLVNQSCw8Qlsz95odc8ZrH1EG5S5ttOJuF tVnbWl7FXjB XtGFw==</Data>\n        </Cred>\n    </Creds>\n</RegDetails>\n</token:ReqRegMob>",
+  "time": "15007-15-03 43:25:25"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:79",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Successfully created request.",
+  "time": "15007-15-03 43:25:25"
+}
+[GIN] 2024/04/15 - 15:53:25 | 200 |     746.111µs |             ::1 | POST     "/ReqRegMob"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-04 44:42:42"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] POST   /ReqRegMob                --> my-project/Controllers.ReqRegMobAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:65",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Request body:<token:ReqRegMob xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-10-13T11:04:34+05:30\" orgId=\"159022\"\nmsgId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" prodType=\"PSO\"/>\n    <Txn id=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" note=\"FETCHLIST\" refId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" refUrl=\"http://upi\" ts=\"2022-10-\n13T11:04:34+05:30\" type=\"PIN\" op=\"set\"/>\n    <Payer addr=\"5000000730@bankd\" name=\"TEST USER_781868\" seqNum=\"1\"\ntype=\"PERSON\" kycType=\"NO\">\n        <Device>\n            <Tag name=\"MOBILE\" value=\"5000000730\"/>\n            <Tag name=\"LOCATION\" value=\"18.570076,73.7623469\"/>\n            <Tag name=\"IP\" value=\"192.168.1.100\"/>\n            <Tag name=\"TYPE\" value=\"Android\"/>\n            <Tag name=\"ID\" value=\"OPM1.171019.026\"/>\n            <Tag name=\"OS\" value=\"Android\"/>\n            <Tag name=\"APP\" value=\"Android\"/>\n            <Tag name=\"GEOCODE\" value=\"geocode\"/>\n            <Tag name=\"TELECOM\" value=\"Vodafone IN\"/>\n                                                           name=\"CAPABILITY\"\n                                                        name=\"WALLETADDRESS\"\nvalue=\"NetworkCapabilities.TRANSPORT_WIFI\"/>\n        </Device>\n        <Ac addrType=\"WALLET\">\nvalue=\"cddb5103b3f9448da484d3e2dd2c5bfd\"/>\n        <Detail name=\"TSPID\" value=\"159022\"/>\n        <Detail name=\"TYPE\" value=\"WALLET\"/>\n    </Ac>\n</Payer>\n<RegDetails type=\"FORMAT2\">\n    <Creds>\n        <Cred type=\"PIN\" subType=\"OTP\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-\nv1.9_v1|Rva9AdbfiqBILQb9wGNzBn6FaOEJyWy0hD0yjdty3InChxsrz+EdCC/HFdkB/61rLzOO X3G2yyxXknuGx5/RzTN1k5INUwlNGAZeISh6tSHjxJa4loNahiymaX05l0 vstK9K5kEPkFKRtMSSt10tr1cww/muhxua5ycOBzrmrDvRCDdhP/j6jeY9jZwDLov/FkNwKFPExe hf/zDxR7HSGetQzBZrEigxVovQWLI6LOlJFajdCn0tewDiAr1Ko8hwgwwiVApd5eQD8YnHorY3kz 7GCkv+k9tGG ZqWNh3SFoBLjWYBna9vaCqnVtqP0/2v8ohQZLPLGkCAWMPZAVKDnw==</Data>\n        </Cred>\n        <Cred type=\"PIN\" subType=\"NTPIN\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-v1.9_v1|Wo7yjiZ2OHs 8gXt4nJ5R8CHO8otEc0OPQ3bhlmHMkcbL9G+ExtPetwWzmcTZXozxIF5AwmeB8Zxf0HnIHSlIiJU 2RWPZt/XRRh5irCN0mqZtp+b3uP0Y2iLkrLVmFliLDte8GvknCTLVJk27EKvqL8WpDGcZb70T2MI 8G1Pgo9el1O 1vrQ0EFtyeZ9Pc9/gtFuusBlSxXweQXE6COYm7LOGpwVwOqXgsGwO2Kt4IrBS1IoOucNyPfZpYeH RdBWQmA84asJZNiMQQiUCxqOUYcBqWw+h4pxOm99RVQLVNQSCw8Qlsz95odc8ZrH1EG5S5ttOJuF tVnbWl7FXjB XtGFw==</Data>\n        </Cred>\n    </Creds>\n</RegDetails>\n</token:ReqRegMob>",
+  "time": "15007-15-04 44:44:44"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:79",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Successfully created request.",
+  "time": "15007-15-04 44:44:44"
+}
+[GIN] 2024/04/15 - 16:01:44 | 200 |     747.872µs |             ::1 | POST     "/ReqRegMob"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-04 44:08:08"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] POST   /ReqRegMob                --> my-project/Controllers.ReqRegMobAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:65",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Request body:<token:ReqRegMob xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-10-13T11:04:34+05:30\" orgId=\"159022\"\nmsgId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" prodType=\"PSO\"/>\n    <Txn id=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" note=\"FETCHLIST\" refId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" refUrl=\"http://upi\" ts=\"2022-10-\n13T11:04:34+05:30\" type=\"PIN\" op=\"set\"/>\n    <Payer addr=\"5000000730@bankd\" name=\"TEST USER_781868\" seqNum=\"1\"\ntype=\"PERSON\" kycType=\"NO\">\n        <Device>\n            <Tag name=\"MOBILE\" value=\"5000000730\"/>\n            <Tag name=\"LOCATION\" value=\"18.570076,73.7623469\"/>\n            <Tag name=\"IP\" value=\"192.168.1.100\"/>\n            <Tag name=\"TYPE\" value=\"Android\"/>\n            <Tag name=\"ID\" value=\"OPM1.171019.026\"/>\n            <Tag name=\"OS\" value=\"Android\"/>\n            <Tag name=\"APP\" value=\"Android\"/>\n            <Tag name=\"GEOCODE\" value=\"geocode\"/>\n            <Tag name=\"TELECOM\" value=\"Vodafone IN\"/>\n                                                           name=\"CAPABILITY\"\n                                                        name=\"WALLETADDRESS\"\nvalue=\"NetworkCapabilities.TRANSPORT_WIFI\"/>\n        </Device>\n        <Ac addrType=\"WALLET\">\nvalue=\"cddb5103b3f9448da484d3e2dd2c5bfd\"/>\n        <Detail name=\"TSPID\" value=\"159022\"/>\n        <Detail name=\"TYPE\" value=\"WALLET\"/>\n    </Ac>\n</Payer>\n<RegDetails type=\"FORMAT2\">\n    <Creds>\n        <Cred type=\"PIN\" subType=\"OTP\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-\nv1.9_v1|Rva9AdbfiqBILQb9wGNzBn6FaOEJyWy0hD0yjdty3InChxsrz+EdCC/HFdkB/61rLzOO X3G2yyxXknuGx5/RzTN1k5INUwlNGAZeISh6tSHjxJa4loNahiymaX05l0 vstK9K5kEPkFKRtMSSt10tr1cww/muhxua5ycOBzrmrDvRCDdhP/j6jeY9jZwDLov/FkNwKFPExe hf/zDxR7HSGetQzBZrEigxVovQWLI6LOlJFajdCn0tewDiAr1Ko8hwgwwiVApd5eQD8YnHorY3kz 7GCkv+k9tGG ZqWNh3SFoBLjWYBna9vaCqnVtqP0/2v8ohQZLPLGkCAWMPZAVKDnw==</Data>\n        </Cred>\n        <Cred type=\"PIN\" subType=\"NTPIN\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-v1.9_v1|Wo7yjiZ2OHs 8gXt4nJ5R8CHO8otEc0OPQ3bhlmHMkcbL9G+ExtPetwWzmcTZXozxIF5AwmeB8Zxf0HnIHSlIiJU 2RWPZt/XRRh5irCN0mqZtp+b3uP0Y2iLkrLVmFliLDte8GvknCTLVJk27EKvqL8WpDGcZb70T2MI 8G1Pgo9el1O 1vrQ0EFtyeZ9Pc9/gtFuusBlSxXweQXE6COYm7LOGpwVwOqXgsGwO2Kt4IrBS1IoOucNyPfZpYeH RdBWQmA84asJZNiMQQiUCxqOUYcBqWw+h4pxOm99RVQLVNQSCw8Qlsz95odc8ZrH1EG5S5ttOJuF tVnbWl7FXjB XtGFw==</Data>\n        </Cred>\n    </Creds>\n</RegDetails>\n</token:ReqRegMob>",
+  "time": "15007-15-04 44:09:09"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:79",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Successfully created request.",
+  "time": "15007-15-04 44:09:09"
+}
+[GIN] 2024/04/15 - 16:52:09 | 200 |     831.307µs |             ::1 | POST     "/ReqRegMob"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-04 44:34:34"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] POST   /ReqRegMob                --> my-project/Controllers.ReqRegMobAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:65",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Request body:<token:ReqRegMob xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-10-13T11:04:34+05:30\" orgId=\"159022\"\nmsgId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" prodType=\"PSO\"/>\n    <Txn id=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" note=\"FETCHLIST\" refId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" refUrl=\"http://upi\" ts=\"2022-10-\n13T11:04:34+05:30\" type=\"PIN\" op=\"set\"/>\n    <Payer addr=\"5000000730@bankd\" name=\"TEST USER_781868\" seqNum=\"1\"\ntype=\"PERSON\" kycType=\"NO\">\n        <Device>\n            <Tag name=\"MOBILE\" value=\"5000000730\"/>\n            <Tag name=\"LOCATION\" value=\"18.570076,73.7623469\"/>\n            <Tag name=\"IP\" value=\"192.168.1.100\"/>\n            <Tag name=\"TYPE\" value=\"Android\"/>\n            <Tag name=\"ID\" value=\"OPM1.171019.026\"/>\n            <Tag name=\"OS\" value=\"Android\"/>\n            <Tag name=\"APP\" value=\"Android\"/>\n            <Tag name=\"GEOCODE\" value=\"geocode\"/>\n            <Tag name=\"TELECOM\" value=\"Vodafone IN\"/>\n                                                           name=\"CAPABILITY\"\n                                                        name=\"WALLETADDRESS\"\nvalue=\"NetworkCapabilities.TRANSPORT_WIFI\"/>\n        </Device>\n        <Ac addrType=\"WALLET\">\nvalue=\"cddb5103b3f9448da484d3e2dd2c5bfd\"/>\n        <Detail name=\"TSPID\" value=\"159022\"/>\n        <Detail name=\"TYPE\" value=\"WALLET\"/>\n    </Ac>\n</Payer>\n<RegDetails type=\"FORMAT2\">\n    <Creds>\n        <Cred type=\"PIN\" subType=\"OTP\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-\nv1.9_v1|Rva9AdbfiqBILQb9wGNzBn6FaOEJyWy0hD0yjdty3InChxsrz+EdCC/HFdkB/61rLzOO X3G2yyxXknuGx5/RzTN1k5INUwlNGAZeISh6tSHjxJa4loNahiymaX05l0 vstK9K5kEPkFKRtMSSt10tr1cww/muhxua5ycOBzrmrDvRCDdhP/j6jeY9jZwDLov/FkNwKFPExe hf/zDxR7HSGetQzBZrEigxVovQWLI6LOlJFajdCn0tewDiAr1Ko8hwgwwiVApd5eQD8YnHorY3kz 7GCkv+k9tGG ZqWNh3SFoBLjWYBna9vaCqnVtqP0/2v8ohQZLPLGkCAWMPZAVKDnw==</Data>\n        </Cred>\n        <Cred type=\"PIN\" subType=\"NTPIN\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-v1.9_v1|Wo7yjiZ2OHs 8gXt4nJ5R8CHO8otEc0OPQ3bhlmHMkcbL9G+ExtPetwWzmcTZXozxIF5AwmeB8Zxf0HnIHSlIiJU 2RWPZt/XRRh5irCN0mqZtp+b3uP0Y2iLkrLVmFliLDte8GvknCTLVJk27EKvqL8WpDGcZb70T2MI 8G1Pgo9el1O 1vrQ0EFtyeZ9Pc9/gtFuusBlSxXweQXE6COYm7LOGpwVwOqXgsGwO2Kt4IrBS1IoOucNyPfZpYeH RdBWQmA84asJZNiMQQiUCxqOUYcBqWw+h4pxOm99RVQLVNQSCw8Qlsz95odc8ZrH1EG5S5ttOJuF tVnbWl7FXjB XtGFw==</Data>\n        </Cred>\n    </Creds>\n</RegDetails>\n</token:ReqRegMob>",
+  "time": "15007-15-04 44:35:35"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:79",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Successfully created request.",
+  "time": "15007-15-04 44:35:35"
+}
+[GIN] 2024/04/15 - 16:53:35 | 200 |     813.592µs |             ::1 | POST     "/ReqRegMob"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-04 44:53:53"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] POST   /ReqRegMob                --> my-project/Controllers.ReqRegMobAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:65",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Request body:<token:ReqRegMob xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-10-13T11:04:34+05:30\" orgId=\"159022\"\nmsgId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" prodType=\"PSO\"/>\n    <Txn id=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" note=\"FETCHLIST\" refId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" refUrl=\"http://upi\" ts=\"2022-10-\n13T11:04:34+05:30\" type=\"PIN\" op=\"set\"/>\n    <Payer addr=\"5000000730@bankd\" name=\"TEST USER_781868\" seqNum=\"1\"\ntype=\"PERSON\" kycType=\"NO\">\n        <Device>\n            <Tag name=\"MOBILE\" value=\"5000000730\"/>\n            <Tag name=\"LOCATION\" value=\"18.570076,73.7623469\"/>\n            <Tag name=\"IP\" value=\"192.168.1.100\"/>\n            <Tag name=\"TYPE\" value=\"Android\"/>\n            <Tag name=\"ID\" value=\"OPM1.171019.026\"/>\n            <Tag name=\"OS\" value=\"Android\"/>\n            <Tag name=\"APP\" value=\"Android\"/>\n            <Tag name=\"GEOCODE\" value=\"geocode\"/>\n            <Tag name=\"TELECOM\" value=\"Vodafone IN\"/>\n                                                           name=\"CAPABILITY\"\n                                                        name=\"WALLETADDRESS\"\nvalue=\"NetworkCapabilities.TRANSPORT_WIFI\"/>\n        </Device>\n        <Ac addrType=\"WALLET\">\nvalue=\"cddb5103b3f9448da484d3e2dd2c5bfd\"/>\n        <Detail name=\"TSPID\" value=\"159022\"/>\n        <Detail name=\"TYPE\" value=\"WALLET\"/>\n    </Ac>\n</Payer>\n<RegDetails type=\"FORMAT2\">\n    <Creds>\n        <Cred type=\"PIN\" subType=\"OTP\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-\nv1.9_v1|Rva9AdbfiqBILQb9wGNzBn6FaOEJyWy0hD0yjdty3InChxsrz+EdCC/HFdkB/61rLzOO X3G2yyxXknuGx5/RzTN1k5INUwlNGAZeISh6tSHjxJa4loNahiymaX05l0 vstK9K5kEPkFKRtMSSt10tr1cww/muhxua5ycOBzrmrDvRCDdhP/j6jeY9jZwDLov/FkNwKFPExe hf/zDxR7HSGetQzBZrEigxVovQWLI6LOlJFajdCn0tewDiAr1Ko8hwgwwiVApd5eQD8YnHorY3kz 7GCkv+k9tGG ZqWNh3SFoBLjWYBna9vaCqnVtqP0/2v8ohQZLPLGkCAWMPZAVKDnw==</Data>\n        </Cred>\n        <Cred type=\"PIN\" subType=\"NTPIN\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-v1.9_v1|Wo7yjiZ2OHs 8gXt4nJ5R8CHO8otEc0OPQ3bhlmHMkcbL9G+ExtPetwWzmcTZXozxIF5AwmeB8Zxf0HnIHSlIiJU 2RWPZt/XRRh5irCN0mqZtp+b3uP0Y2iLkrLVmFliLDte8GvknCTLVJk27EKvqL8WpDGcZb70T2MI 8G1Pgo9el1O 1vrQ0EFtyeZ9Pc9/gtFuusBlSxXweQXE6COYm7LOGpwVwOqXgsGwO2Kt4IrBS1IoOucNyPfZpYeH RdBWQmA84asJZNiMQQiUCxqOUYcBqWw+h4pxOm99RVQLVNQSCw8Qlsz95odc8ZrH1EG5S5ttOJuF tVnbWl7FXjB XtGFw==</Data>\n        </Cred>\n    </Creds>\n</RegDetails>\n</token:ReqRegMob>",
+  "time": "15007-15-04 44:55:55"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:79",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Successfully created request.",
+  "time": "15007-15-04 44:55:55"
+}
+[GIN] 2024/04/15 - 16:55:55 | 200 |      747.15µs |             ::1 | POST     "/ReqRegMob"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-04 44:33:33"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] POST   /ReqRegMob                --> my-project/Controllers.ReqRegMobAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:65",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Request body:<token:ReqRegMob xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-10-13T11:04:34+05:30\" orgId=\"159022\"\nmsgId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" prodType=\"PSO\"/>\n    <Txn id=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" note=\"FETCHLIST\" refId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" refUrl=\"http://upi\" ts=\"2022-10-\n13T11:04:34+05:30\" type=\"PIN\" op=\"set\"/>\n    <Payer addr=\"5000000730@bankd\" name=\"TEST USER_781868\" seqNum=\"1\"\ntype=\"PERSON\" kycType=\"NO\">\n        <Device>\n            <Tag name=\"MOBILE\" value=\"5000000730\"/>\n            <Tag name=\"LOCATION\" value=\"18.570076,73.7623469\"/>\n            <Tag name=\"IP\" value=\"192.168.1.100\"/>\n            <Tag name=\"TYPE\" value=\"Android\"/>\n            <Tag name=\"ID\" value=\"OPM1.171019.026\"/>\n            <Tag name=\"OS\" value=\"Android\"/>\n            <Tag name=\"APP\" value=\"Android\"/>\n            <Tag name=\"GEOCODE\" value=\"geocode\"/>\n            <Tag name=\"TELECOM\" value=\"Vodafone IN\"/>\n                                                           name=\"CAPABILITY\"\n                                                        name=\"WALLETADDRESS\"\nvalue=\"NetworkCapabilities.TRANSPORT_WIFI\"/>\n        </Device>\n        <Ac addrType=\"WALLET\">\nvalue=\"cddb5103b3f9448da484d3e2dd2c5bfd\"/>\n        <Detail name=\"TSPID\" value=\"159022\"/>\n        <Detail name=\"TYPE\" value=\"WALLET\"/>\n    </Ac>\n</Payer>\n<RegDetails type=\"FORMAT2\">\n    <Creds>\n        <Cred type=\"PIN\" subType=\"OTP\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-\nv1.9_v1|Rva9AdbfiqBILQb9wGNzBn6FaOEJyWy0hD0yjdty3InChxsrz+EdCC/HFdkB/61rLzOO X3G2yyxXknuGx5/RzTN1k5INUwlNGAZeISh6tSHjxJa4loNahiymaX05l0 vstK9K5kEPkFKRtMSSt10tr1cww/muhxua5ycOBzrmrDvRCDdhP/j6jeY9jZwDLov/FkNwKFPExe hf/zDxR7HSGetQzBZrEigxVovQWLI6LOlJFajdCn0tewDiAr1Ko8hwgwwiVApd5eQD8YnHorY3kz 7GCkv+k9tGG ZqWNh3SFoBLjWYBna9vaCqnVtqP0/2v8ohQZLPLGkCAWMPZAVKDnw==</Data>\n        </Cred>\n        <Cred type=\"PIN\" subType=\"NTPIN\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-v1.9_v1|Wo7yjiZ2OHs 8gXt4nJ5R8CHO8otEc0OPQ3bhlmHMkcbL9G+ExtPetwWzmcTZXozxIF5AwmeB8Zxf0HnIHSlIiJU 2RWPZt/XRRh5irCN0mqZtp+b3uP0Y2iLkrLVmFliLDte8GvknCTLVJk27EKvqL8WpDGcZb70T2MI 8G1Pgo9el1O 1vrQ0EFtyeZ9Pc9/gtFuusBlSxXweQXE6COYm7LOGpwVwOqXgsGwO2Kt4IrBS1IoOucNyPfZpYeH RdBWQmA84asJZNiMQQiUCxqOUYcBqWw+h4pxOm99RVQLVNQSCw8Qlsz95odc8ZrH1EG5S5ttOJuF tVnbWl7FXjB XtGFw==</Data>\n        </Cred>\n    </Creds>\n</RegDetails>\n</token:ReqRegMob>",
+  "time": "15007-15-04 44:34:34"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:79",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Successfully created request.",
+  "time": "15007-15-04 44:34:34"
+}
+[GIN] 2024/04/15 - 16:56:34 | 200 |    1.035255ms |             ::1 | POST     "/ReqRegMob"
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:65",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Request body:<token:ReqRegMob xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-10-13T11:04:34+05:30\" orgId=\"159022\"\nmsgId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" prodType=\"PSO\"/>\n    <Txn id=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" note=\"FETCHLIST\" refId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" refUrl=\"http://upi\" ts=\"2022-10-\n13T11:04:34+05:30\" type=\"PIN\" op=\"set\"/>\n    <Payer addr=\"5000000730@bankd\" name=\"TEST USER_781868\" seqNum=\"1\"\ntype=\"PERSON\" kycType=\"NO\">\n        <Device>\n            <Tag name=\"MOBILE\" value=\"5000000730\"/>\n            <Tag name=\"LOCATION\" value=\"18.570076,73.7623469\"/>\n            <Tag name=\"IP\" value=\"192.168.1.100\"/>\n            <Tag name=\"TYPE\" value=\"Android\"/>\n            <Tag name=\"ID\" value=\"OPM1.171019.026\"/>\n            <Tag name=\"OS\" value=\"Android\"/>\n            <Tag name=\"APP\" value=\"Android\"/>\n            <Tag name=\"GEOCODE\" value=\"geocode\"/>\n            <Tag name=\"TELECOM\" value=\"Vodafone IN\"/>\n                                                           name=\"CAPABILITY\"\n                                                        name=\"WALLETADDRESS\"\nvalue=\"NetworkCapabilities.TRANSPORT_WIFI\"/>\n        </Device>\n        <Ac addrType=\"WALLET\">\nvalue=\"cddb5103b3f9448da484d3e2dd2c5bfd\"/>\n        <Detail name=\"TSPID\" value=\"159022\"/>\n        <Detail name=\"TYPE\" value=\"WALLET\"/>\n    </Ac>\n</Payer>\n<RegDetails type=\"FORMAT2\">\n    <Creds>\n        <Cred type=\"PIN\" subType=\"OTP\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-\nv1.9_v1|Rva9AdbfiqBILQb9wGNzBn6FaOEJyWy0hD0yjdty3InChxsrz+EdCC/HFdkB/61rLzOO X3G2yyxXknuGx5/RzTN1k5INUwlNGAZeISh6tSHjxJa4loNahiymaX05l0 vstK9K5kEPkFKRtMSSt10tr1cww/muhxua5ycOBzrmrDvRCDdhP/j6jeY9jZwDLov/FkNwKFPExe hf/zDxR7HSGetQzBZrEigxVovQWLI6LOlJFajdCn0tewDiAr1Ko8hwgwwiVApd5eQD8YnHorY3kz 7GCkv+k9tGG ZqWNh3SFoBLjWYBna9vaCqnVtqP0/2v8ohQZLPLGkCAWMPZAVKDnw==</Data>\n        </Cred>\n        <Cred type=\"PIN\" subType=\"NTPIN\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-v1.9_v1|Wo7yjiZ2OHs 8gXt4nJ5R8CHO8otEc0OPQ3bhlmHMkcbL9G+ExtPetwWzmcTZXozxIF5AwmeB8Zxf0HnIHSlIiJU 2RWPZt/XRRh5irCN0mqZtp+b3uP0Y2iLkrLVmFliLDte8GvknCTLVJk27EKvqL8WpDGcZb70T2MI 8G1Pgo9el1O 1vrQ0EFtyeZ9Pc9/gtFuusBlSxXweQXE6COYm7LOGpwVwOqXgsGwO2Kt4IrBS1IoOucNyPfZpYeH RdBWQmA84asJZNiMQQiUCxqOUYcBqWw+h4pxOm99RVQLVNQSCw8Qlsz95odc8ZrH1EG5S5ttOJuF tVnbWl7FXjB XtGFw==</Data>\n        </Cred>\n    </Creds>\n</RegDetails>\n</token:ReqRegMob>",
+  "time": "15007-15-04 44:37:37"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:79",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Successfully created request.",
+  "time": "15007-15-04 44:37:37"
+}
+[GIN] 2024/04/15 - 16:56:37 | 200 |     343.498µs |             ::1 | POST     "/ReqRegMob"
+{
+  "file": "/Users/avanishranjan/Documents/projects/main.go:35",
+  "func": "main.init.0",
+  "level": "debug",
+  "msg": "logFileName: 2024-04-15.log",
+  "time": "15007-15-04 44:39:39"
+}
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /Req/RespDevice           --> my-project/Controllers.ReqCreateDeviceApi (3 handlers)
+[GIN-debug] POST   /Req/RespVerifyToken      --> my-project/Controllers.RespVerifyTokenApi (3 handlers)
+[GIN-debug] POST   /ListKeys                 --> my-project/Controllers.ListKeysApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys         --> my-project/Controllers.RespListKeysTknApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccPvd       --> my-project/Controllers.RespListAccPvdApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount      --> my-project/Controllers.RespListAccFetchApi (3 handlers)
+[GIN-debug] POST   /Req/RespListAccount/create --> my-project/Controllers.ReqListAccountCreateApi (3 handlers)
+[GIN-debug] POST   /Req/RespListKeys-GetWallet --> my-project/Controllers.RespListKeysGetWalletAPI (3 handlers)
+[GIN-debug] POST   /ReqRegMob                --> my-project/Controllers.ReqRegMobAPI (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:65",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Request body:<token:ReqRegMob xmlns:token=\"http://npci.org/token/schema/\">\n    <Head ver=\"2.0\" ts=\"2022-10-13T11:04:34+05:30\" orgId=\"159022\"\nmsgId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" prodType=\"PSO\"/>\n    <Txn id=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" note=\"FETCHLIST\" refId=\"001MToMevZGSD8OEtOD1jftpu9Jee0EMYr1\" refUrl=\"http://upi\" ts=\"2022-10-\n13T11:04:34+05:30\" type=\"PIN\" op=\"set\"/>\n    <Payer addr=\"5000000730@bankd\" name=\"TEST USER_781868\" seqNum=\"1\"\ntype=\"PERSON\" kycType=\"NO\">\n        <Device>\n            <Tag name=\"MOBILE\" value=\"5000000730\"/>\n            <Tag name=\"LOCATION\" value=\"18.570076,73.7623469\"/>\n            <Tag name=\"IP\" value=\"192.168.1.100\"/>\n            <Tag name=\"TYPE\" value=\"Android\"/>\n            <Tag name=\"ID\" value=\"OPM1.171019.026\"/>\n            <Tag name=\"OS\" value=\"Android\"/>\n            <Tag name=\"APP\" value=\"Android\"/>\n            <Tag name=\"GEOCODE\" value=\"geocode\"/>\n            <Tag name=\"TELECOM\" value=\"Vodafone IN\"/>\n                                                           name=\"CAPABILITY\"\n                                                        name=\"WALLETADDRESS\"\nvalue=\"NetworkCapabilities.TRANSPORT_WIFI\"/>\n        </Device>\n        <Ac addrType=\"WALLET\">\nvalue=\"cddb5103b3f9448da484d3e2dd2c5bfd\"/>\n        <Detail name=\"TSPID\" value=\"159022\"/>\n        <Detail name=\"TYPE\" value=\"WALLET\"/>\n    </Ac>\n</Payer>\n<RegDetails type=\"FORMAT2\">\n    <Creds>\n        <Cred type=\"PIN\" subType=\"OTP\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-\nv1.9_v1|Rva9AdbfiqBILQb9wGNzBn6FaOEJyWy0hD0yjdty3InChxsrz+EdCC/HFdkB/61rLzOO X3G2yyxXknuGx5/RzTN1k5INUwlNGAZeISh6tSHjxJa4loNahiymaX05l0 vstK9K5kEPkFKRtMSSt10tr1cww/muhxua5ycOBzrmrDvRCDdhP/j6jeY9jZwDLov/FkNwKFPExe hf/zDxR7HSGetQzBZrEigxVovQWLI6LOlJFajdCn0tewDiAr1Ko8hwgwwiVApd5eQD8YnHorY3kz 7GCkv+k9tGG ZqWNh3SFoBLjWYBna9vaCqnVtqP0/2v8ohQZLPLGkCAWMPZAVKDnw==</Data>\n        </Cred>\n        <Cred type=\"PIN\" subType=\"NTPIN\">\n            <Data code=\"NPCI\" ki=\"20150822\">2.4.token-v1.9_v1|Wo7yjiZ2OHs 8gXt4nJ5R8CHO8otEc0OPQ3bhlmHMkcbL9G+ExtPetwWzmcTZXozxIF5AwmeB8Zxf0HnIHSlIiJU 2RWPZt/XRRh5irCN0mqZtp+b3uP0Y2iLkrLVmFliLDte8GvknCTLVJk27EKvqL8WpDGcZb70T2MI 8G1Pgo9el1O 1vrQ0EFtyeZ9Pc9/gtFuusBlSxXweQXE6COYm7LOGpwVwOqXgsGwO2Kt4IrBS1IoOucNyPfZpYeH RdBWQmA84asJZNiMQQiUCxqOUYcBqWw+h4pxOm99RVQLVNQSCw8Qlsz95odc8ZrH1EG5S5ttOJuF tVnbWl7FXjB XtGFw==</Data>\n        </Cred>\n    </Creds>\n</RegDetails>\n</token:ReqRegMob>",
+  "time": "15007-15-04 44:40:40"
+}
+{
+  "file": "/Users/avanishranjan/Documents/projects/Controllers/ReqRegMob.go:79",
+  "func": "my-project/Controllers.ReqRegMobAPI",
+  "level": "info",
+  "msg": "@ReqRegMobAPI Successfully created request.",
+  "time": "15007-15-04 44:40:40"
+}
+[GIN] 2024/04/15 - 16:57:40 | 200 |     759.788µs |             ::1 | POST     "/ReqRegMob"
